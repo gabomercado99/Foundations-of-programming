@@ -1,0 +1,2427 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@Comp301Tags.PAINT_LISTENER,
+			@Comp301Tags.LOCATABLE,
+			@Comp301Tags.COORDINATED_ANIMATING_COMMAND,
+			@Comp301Tags.BRIDGE_SCENE,
+			@Comp301Tags.TABLE,
+			@Comp301Tags.DELEGATING_BRIDGE_SCENE_VIEW,
+			@Comp301Tags.BOUNDED_SHAPE,
+			@Comp301Tags.BRIDGE_SCENE_CONTROLLER,
+			@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER,
+			@Comp301Tags.COORDINATING_ANIMATOR,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER,
+			@Comp301Tags.IMPOSSIBLE_ANGLE,
+			@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.AVATAR,
+			@Comp301Tags.COORDINATING_ANIMATING_COMMAND,
+			@Comp301Tags.FACTORY_CLASS,
+			@Comp301Tags.ANGLE,
+			@Comp301Tags.CONSOLE_SCENE_VIEW,
+			@Comp301Tags.LEGS,
+			@Comp301Tags.ANIMATING_COMMAND,
+			@Comp301Tags.ANIMATOR,
+			@Comp301Tags.RESTRICTED_LINE,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.CONSOLE_SCENE_VIEW"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedProperties" value="
+			KnightTurn:boolean,
+			InteractingKnight:@Comp301Tags.AVATAR,
+			Gorge:.*,
+			Occupied:boolean,
+			Arthur:@Comp301Tags.AVATAR,
+			KnightArea:@Comp301Tags.ROTATING_LINE,
+			Guard:@Comp301Tags.AVATAR,
+			Lancelot:@Comp301Tags.AVATAR,
+			GuardArea:@Comp301Tags.ROTATING_LINE,
+			Galahad:@Comp301Tags.AVATAR,
+			Robin:@Comp301Tags.AVATAR,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedProperties" value="
+			KnightTurn:boolean,
+			InteractingKnight:@Comp301Tags.AVATAR,
+			Gorge:.*,
+			Occupied:boolean,
+			Arthur:@Comp301Tags.AVATAR,
+			KnightArea:@Comp301Tags.ROTATING_LINE,
+			Guard:@Comp301Tags.AVATAR,
+			Lancelot:@Comp301Tags.AVATAR,
+			GuardArea:@Comp301Tags.ROTATING_LINE,
+			Galahad:@Comp301Tags.AVATAR,
+			Robin:@Comp301Tags.AVATAR,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedSignatures" value="
+			lockstepRobin:->void,
+			newOccupation:boolean->void,
+			asynchronousGuard:->void,
+			lockstepLancelot:->void,
+			waitingGalahad:->void,
+			asynchronousGalahad:->void,
+			asynchronousLancelot:->void,
+			lockstepArthur:->void,
+			startAnimation:->void,
+			waitingRobin:->void,
+			preFailed:->boolean,
+			addPropertyChangeListenerMine:java.beans.PropertyChangeListener->void,
+			waitingArthur:->void,
+			asynchronousArthur:->void,
+			preApproach:->boolean,
+			scroll:int;int->void,
+			preSay:->boolean,
+			lockstepGalahad:->void,
+			say:String->void,
+			waitingLancelot:->void,
+			prePassed:->boolean,
+			lockstepGuard:->void,
+			approach:String->void,
+			passed:->void,
+			asynchronousRobin:->void,
+			updateSpeakTurn:boolean->void,
+			failed:->void,
+			approach:@Comp301Tags.AVATAR->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedSignatures" value="
+			lockstepRobin:->void,
+			newOccupation:boolean->void,
+			asynchronousGuard:->void,
+			lockstepLancelot:->void,
+			waitingGalahad:->void,
+			asynchronousGalahad:->void,
+			asynchronousLancelot:->void,
+			lockstepArthur:->void,
+			startAnimation:->void,
+			waitingRobin:->void,
+			preFailed:->boolean,
+			addPropertyChangeListenerMine:java.beans.PropertyChangeListener->void,
+			waitingArthur:->void,
+			asynchronousArthur:->void,
+			preApproach:->boolean,
+			scroll:int;int->void,
+			preSay:->boolean,
+			lockstepGalahad:->void,
+			say:String->void,
+			waitingLancelot:->void,
+			prePassed:->boolean,
+			lockstepGuard:->void,
+			approach:String->void,
+			passed:->void,
+			asynchronousRobin:->void,
+			updateSpeakTurn:boolean->void,
+			failed:->void,
+			approach:@Comp301Tags.AVATAR->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.TABLE!get:String->TypeParam0,
+			@Comp301Tags.AVATAR!addPropertyChangeListener:@Comp301Tags.AVATAR;java.beans.PropertyChangeListener->void,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			java.lang.Object!notifyAll:->void,
+			@Comp301Tags.FACTORY_CLASS!broadcastingClearanceManagerFactoryMethod:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			@Comp301Tags.FACTORY_CLASS!bridgeSceneFactoryMethod:->@Comp301Tags.BRIDGE_SCENE,
+			java.awt.Component!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.lang.Thread!currentThread:->Thread,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			javax.swing.AbstractButton!setText:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Thread!start:->void,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.TABLE!get:String->TypeParam0,
+			@Comp301Tags.AVATAR!addPropertyChangeListener:@Comp301Tags.AVATAR;java.beans.PropertyChangeListener->void,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			java.lang.Object!notifyAll:->void,
+			@Comp301Tags.FACTORY_CLASS!broadcastingClearanceManagerFactoryMethod:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			@Comp301Tags.FACTORY_CLASS!bridgeSceneFactoryMethod:->@Comp301Tags.BRIDGE_SCENE,
+			java.awt.Component!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.lang.Thread!currentThread:->Thread,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			javax.swing.AbstractButton!setText:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Thread!start:->void,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATOR"/>
+		<property name="expectedSignatures" value="
+			animateGuard:@Comp301Tags.AVATAR->void,
+			animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATOR"/>
+		<property name="expectedSignatures" value="
+			animateGuard:@Comp301Tags.AVATAR->void,
+			animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATOR"/>
+		<property name="expectedCalls" value="
+			util.misc.ThreadSupport!sleep:long->void,
+			java.awt.Graphics2D!rotate:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.ROTATING_LINE!rotate:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATOR"/>
+		<property name="expectedCalls" value="
+			util.misc.ThreadSupport!sleep:long->void,
+			java.awt.Graphics2D!rotate:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.ROTATING_LINE!rotate:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATOR"/>
+		<property name="expectedReferences" value="
+			animateGuard:@Comp301Tags.AVATAR->void#.*PI.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedProperties" value="
+			Torso:@Comp301Tags.ROTATING_LINE,
+			Legs:@Comp301Tags.ANGLE,
+			Head:.*,
+			StringShape:.*,
+			Arms:@Comp301Tags.ANGLE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedProperties" value="
+			Torso:@Comp301Tags.ROTATING_LINE,
+			Legs:@Comp301Tags.ANGLE,
+			Head:.*,
+			StringShape:.*,
+			Arms:@Comp301Tags.ANGLE,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedSignatures" value="
+			scale:double->void,
+			combineFigs:int;int->void,
+			moveAvatar:int;int->void,
+			armLegMiniFact:->void,
+			move:int;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedSignatures" value="
+			scale:double->void,
+			combineFigs:int;int->void,
+			moveAvatar:int;int->void,
+			armLegMiniFact:->void,
+			move:int;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!setHeight:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!setWidth:*->.*,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			@Comp301Tags.FACTORY_CLASS!legsFactoryMethod:double;double;double;double;int;int->@Comp301Tags.ANGLE,
+			@Comp301Tags.ROTATING_LINE!getRadius:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.ROTATING_LINE!setRadius:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.ANGLE!moveLimbs:int;int->void,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.AVATAR"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!setHeight:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!setWidth:*->.*,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			@Comp301Tags.FACTORY_CLASS!legsFactoryMethod:double;double;double;double;int;int->@Comp301Tags.ANGLE,
+			@Comp301Tags.ROTATING_LINE!getRadius:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.ROTATING_LINE!setRadius:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.ANGLE!moveLimbs:int;int->void,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedSignatures" value="
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LOCATABLE"/>
+		<property name="expectedSignatures" value="
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANIMATING_COMMAND,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANIMATING_COMMAND,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATED_ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedProperties" value="
+			RightLine:@Comp301Tags.ROTATING_LINE,
+			LeftLine:@Comp301Tags.ROTATING_LINE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedProperties" value="
+			RightLine:@Comp301Tags.ROTATING_LINE,
+			LeftLine:@Comp301Tags.ROTATING_LINE,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedSignatures" value="
+			moveLimbs:int;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedSignatures" value="
+			moveLimbs:int;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.awt.Component!getY:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANGLE"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.awt.Component!getY:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANGLE,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANGLE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedProperties" value="
+			RightLine:@Comp301Tags.ROTATING_LINE,
+			LeftLine:@Comp301Tags.ROTATING_LINE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedProperties" value="
+			RightLine:@Comp301Tags.ROTATING_LINE,
+			LeftLine:@Comp301Tags.ROTATING_LINE,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedSignatures" value="
+			moveLimbs:int;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedSignatures" value="
+			moveLimbs:int;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.awt.Component!getY:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.LEGS"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!setX:*->.*,
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!setY:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.awt.Component!getY:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.BOUNDED_SHAPE,
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.BOUNDED_SHAPE,
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedSignatures" value="
+			clone:->@Comp301Tags.ROTATING_LINE,
+			move:int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			rotate:int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedSignatures" value="
+			clone:->@Comp301Tags.ROTATING_LINE,
+			move:int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			rotate:int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedCalls" value="
+			java.lang.Math!atan:double->double,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.lang.Math!sqrt:double->double,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedCalls" value="
+			java.lang.Math!atan:double->double,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.lang.Math!sqrt:double->double,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ROTATING_LINE"/>
+		<property name="expectedReferences" value="
+			rotate:int->void#.*PI.*,
+		"/>
+	</module>
+	<module name="ClassIsGeneric">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+	</module>
+	<module name="ClassIsGeneric">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+		<property name="expectedSignatures" value="
+			put:String;TypeParam0->void,
+			size:->int,
+			get:String->TypeParam0,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+		<property name="expectedSignatures" value="
+			put:String;TypeParam0->void,
+			size:->int,
+			get:String->TypeParam0,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+		<property name="expectedCalls" value="
+			java.util.List!indexOf:Object->int,
+			java.util.List!contains:Object->boolean,
+			java.util.List!add:*->.*,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.TABLE"/>
+		<property name="expectedCalls" value="
+			java.util.List!indexOf:Object->int,
+			java.util.List!contains:Object->boolean,
+			java.util.List!add:*->.*,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSuperTypes" value="
+			java.awt.Component,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSuperTypes" value="
+			java.awt.Component,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+			paint:java.awt.Graphics->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+			paint:java.awt.Graphics->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuardArea:->@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BRIDGE_SCENE!getGorge:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			@Comp301Tags.BRIDGE_SCENE!getKnightArea:->@Comp301Tags.ROTATING_LINE,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.Graphics!drawOval:int;int;int;int->void,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			java.awt.Component!repaint:->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuardArea:->@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BRIDGE_SCENE!getGorge:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			@Comp301Tags.BRIDGE_SCENE!getKnightArea:->@Comp301Tags.ROTATING_LINE,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuard:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.Graphics!drawOval:int;int;int;int->void,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			java.awt.Component!repaint:->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BOUNDED_SHAPE,
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BOUNDED_SHAPE,
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedProperties" value="
+			Radius:double,
+			Angle:double,
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedSignatures" value="
+			clone:->@Comp301Tags.ROTATING_LINE,
+			move:int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			rotate:int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedSignatures" value="
+			clone:->@Comp301Tags.ROTATING_LINE,
+			move:int;int->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			rotate:int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedCalls" value="
+			java.lang.Math!atan:double->double,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.ROTATING_LINE!getRadius:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.ROTATING_LINE!getAngle:->double,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.lang.Math!sqrt:double->double,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			@Comp301Tags.ROTATING_LINE!setAngle:double->void,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedCalls" value="
+			java.lang.Math!atan:double->double,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.ROTATING_LINE!getRadius:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.ROTATING_LINE!getAngle:->double,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.lang.Math!sqrt:double->double,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			@Comp301Tags.ROTATING_LINE!setAngle:double->void,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.RESTRICTED_LINE"/>
+		<property name="expectedReferences" value="
+			rotate:int->void#.*PI.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			@Comp301Tags.AVATAR!getStringShape:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.Graphics!drawImage:java.awt.Image;int;int;int;int;java.awt.image.ImageObserver->boolean,
+			@Comp301Tags.AVATAR!getHead:->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.Graphics!drawString:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.AVATAR!getLegs:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			javax.imageio.ImageIO!read:*->.*,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			@Comp301Tags.AVATAR!getTorso:*->.*,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.IMPOSSIBLE_ANGLE"/>
+		<property name="expectedSuperTypes" value="
+			java.io.IOException,
+			java.lang.Exception,
+			java.lang.Throwable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.IMPOSSIBLE_ANGLE"/>
+		<property name="expectedSuperTypes" value="
+			java.io.IOException,
+			java.lang.Exception,
+			java.lang.Throwable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateGuard:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateGuard:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANIMATOR,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.ANIMATOR,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedSignatures" value="
+			animateGuard:@Comp301Tags.AVATAR->void,
+			animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedSignatures" value="
+			animateGuard:@Comp301Tags.AVATAR->void,
+			animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedCalls" value="
+			java.util.Vector!addElement:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			java.util.Vector!removeElement:*->.*,
+			java.lang.Thread!toString:->String,
+			util.models.AListenableVector!removeElement:*->.*,
+			java.lang.Thread!currentThread:->Thread,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			java.lang.Object!wait:->void,
+			@Comp301Tags.ROTATING_LINE!rotate:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Object!notifyAll:->void,
+			@Comp301Tags.FACTORY_CLASS!broadcastingClearanceManagerFactoryMethod:->.*,
+			java.awt.Graphics2D!rotate:*->.*,
+			util.models.AListenableVector!addElement:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedCalls" value="
+			java.util.Vector!addElement:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			java.util.Vector!removeElement:*->.*,
+			java.lang.Thread!toString:->String,
+			util.models.AListenableVector!removeElement:*->.*,
+			java.lang.Thread!currentThread:->Thread,
+			@Comp301Tags.AVATAR!getArms:*->.*,
+			java.lang.Object!wait:->void,
+			@Comp301Tags.ROTATING_LINE!rotate:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Object!notifyAll:->void,
+			@Comp301Tags.FACTORY_CLASS!broadcastingClearanceManagerFactoryMethod:->.*,
+			java.awt.Graphics2D!rotate:*->.*,
+			util.models.AListenableVector!addElement:*->.*,
+			@Comp301Tags.ANGLE!getLeftLine:*->.*,
+			@Comp301Tags.AVATAR!moveAvatar:int;int->void,
+			@Comp301Tags.ANGLE!getRightLine:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.COORDINATING_ANIMATOR"/>
+		<property name="expectedReferences" value="
+			animateGuard:@Comp301Tags.AVATAR->void#.*PI.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSuperTypes" value="
+			java.awt.Component,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSuperTypes" value="
+			java.awt.Component,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedProperties" value="
+			PaintListeners:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedProperties" value="
+			PaintListeners:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSignatures" value="
+			add:@Comp301Tags.PAINT_LISTENER->void,
+			paint:java.awt.Graphics->void,
+			repaint:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedSignatures" value="
+			add:@Comp301Tags.PAINT_LISTENER->void,
+			paint:java.awt.Graphics->void,
+			repaint:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedCalls" value="
+			java.util.List!add:Object->boolean,
+			java.awt.Component!paint:*->.*,
+			java.awt.Window!paint:*->.*,
+			java.awt.Container!paint:*->.*,
+			javax.swing.JComponent!paint:*->.*,
+			@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER!paint:*->.*,
+			@Comp301Tags.PAINT_LISTENER!paint:*->.*,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER"/>
+		<property name="expectedCalls" value="
+			java.util.List!add:Object->boolean,
+			java.awt.Component!paint:*->.*,
+			java.awt.Window!paint:*->.*,
+			java.awt.Container!paint:*->.*,
+			javax.swing.JComponent!paint:*->.*,
+			@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER!paint:*->.*,
+			@Comp301Tags.PAINT_LISTENER!paint:*->.*,
+			java.util.List!get:int->Object,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedSuperTypes" value="
+			@Comp301Tags.LOCATABLE,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			PropertyChangeListeners:java.util.List,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedProperties" value="
+			X:int,
+			Y:int,
+			Height:int,
+			Width:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedSignatures" value="
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedSignatures" value="
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BOUNDED_SHAPE"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedSignatures" value="
+			paint:java.awt.Graphics2D->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			java.awt.Graphics!drawOval:int;int;int;int->void,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuardArea:->@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BRIDGE_SCENE!getGorge:->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getKnightArea:->@Comp301Tags.ROTATING_LINE,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.PAINT_LISTENER"/>
+		<property name="expectedCalls" value="
+			javax.swing.JComponent!getX:*->.*,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.awt.Component!getHeight:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			javax.swing.JComponent!getWidth:*->.*,
+			javax.swing.JComponent!getY:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!repaint:->void,
+			java.awt.image.BufferedImage!getWidth:*->.*,
+			java.awt.Graphics!drawOval:int;int;int;int->void,
+			javax.swing.JComponent!getHeight:*->.*,
+			java.awt.Component!getWidth:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGuardArea:->@Comp301Tags.ROTATING_LINE,
+			@Comp301Tags.BRIDGE_SCENE!getGorge:->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			java.awt.Graphics!drawLine:int;int;int;int->void,
+			java.awt.image.BufferedImage!getHeight:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getKnightArea:->@Comp301Tags.ROTATING_LINE,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getHeight:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.BOUNDED_SHAPE!getWidth:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.ANIMATING_COMMAND"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.ANIMATOR!animateAvatar:@Comp301Tags.AVATAR->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedInterfaces" value="
+			java.awt.event.KeyListener,
+			java.util.EventListener,
+			java.awt.event.ActionListener,
+			java.beans.PropertyChangeListener,
+			java.awt.event.MouseListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedInterfaces" value="
+			java.awt.event.KeyListener,
+			java.util.EventListener,
+			java.awt.event.ActionListener,
+			java.beans.PropertyChangeListener,
+			java.awt.event.MouseListener,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedProperties" value="
+			Passed:javax.swing.JButton,
+			Failed:javax.swing.JButton,
+			Approach:javax.swing.JButton,
+			Say:javax.swing.JButton,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedProperties" value="
+			Passed:javax.swing.JButton,
+			Failed:javax.swing.JButton,
+			Approach:javax.swing.JButton,
+			Say:javax.swing.JButton,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedSignatures" value="
+			mouseEntered:java.awt.event.MouseEvent->void,
+			mouseReleased:java.awt.event.MouseEvent->void,
+			keyTyped:java.awt.event.KeyEvent->void,
+			keyPressed:java.awt.event.KeyEvent->void,
+			keyReleased:java.awt.event.KeyEvent->void,
+			mouseClicked:java.awt.event.MouseEvent->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+			actionPerformed:java.awt.event.ActionEvent->void,
+			mousePressed:java.awt.event.MouseEvent->void,
+			mouseExited:java.awt.event.MouseEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedSignatures" value="
+			mouseEntered:java.awt.event.MouseEvent->void,
+			mouseReleased:java.awt.event.MouseEvent->void,
+			keyTyped:java.awt.event.KeyEvent->void,
+			keyPressed:java.awt.event.KeyEvent->void,
+			keyReleased:java.awt.event.KeyEvent->void,
+			mouseClicked:java.awt.event.MouseEvent->void,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+			actionPerformed:java.awt.event.ActionEvent->void,
+			mousePressed:java.awt.event.MouseEvent->void,
+			mouseExited:java.awt.event.MouseEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.BRIDGE_SCENE!passed:->void,
+			javax.swing.JComponent!getX:*->.*,
+			java.io.File!equals:*->.*,
+			java.util.List!equals:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			java.awt.Image!getSource:*->.*,
+			java.awt.image.BufferedImage!getSource:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.util.Vector!equals:*->.*,
+			java.beans.PropertyChangeEvent!getOldValue:->Object,
+			java.lang.Object!equals:*->.*,
+			java.awt.Component!setEnabled:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!approach:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.AVATAR!move:int;int->void,
+			java.util.EventObject!getSource:*->.*,
+			java.util.AbstractMap!equals:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!failed:->void,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.awt.BasicStroke!equals:*->.*,
+			java.io.PrintStream!print:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.KeyEvent!getKeyChar:->char,
+			@Comp301Tags.BRIDGE_SCENE!newOccupation:boolean->void,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!say:String->void,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			javax.swing.JComponent!setEnabled:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.Color!equals:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			util.models.AListenableVector!equals:*->.*,
+			java.util.AbstractList!equals:*->.*,
+			javax.swing.AbstractButton!setEnabled:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.BRIDGE_SCENE_CONTROLLER"/>
+		<property name="expectedCalls" value="
+			@Comp301Tags.BRIDGE_SCENE!passed:->void,
+			javax.swing.JComponent!getX:*->.*,
+			java.io.File!equals:*->.*,
+			java.util.List!equals:*->.*,
+			@Comp301Tags.LOCATABLE!getY:*->.*,
+			java.awt.Component!getX:*->.*,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			java.awt.Image!getSource:*->.*,
+			java.awt.image.BufferedImage!getSource:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getRobin:->@Comp301Tags.AVATAR,
+			java.util.Vector!equals:*->.*,
+			java.beans.PropertyChangeEvent!getOldValue:->Object,
+			java.lang.Object!equals:*->.*,
+			java.awt.Component!setEnabled:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!approach:*->.*,
+			java.awt.Component!getY:*->.*,
+			@Comp301Tags.AVATAR!move:int;int->void,
+			java.util.EventObject!getSource:*->.*,
+			java.util.AbstractMap!equals:*->.*,
+			java.awt.event.MouseEvent!getX:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!failed:->void,
+			@Comp301Tags.LOCATABLE!getX:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.awt.BasicStroke!equals:*->.*,
+			java.io.PrintStream!print:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getGalahad:->@Comp301Tags.AVATAR,
+			javax.swing.JComponent!getY:*->.*,
+			java.awt.event.KeyEvent!getKeyChar:->char,
+			@Comp301Tags.BRIDGE_SCENE!newOccupation:boolean->void,
+			java.io.PrintStream!println:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!say:String->void,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			javax.swing.JComponent!setEnabled:*->.*,
+			@Comp301Tags.BRIDGE_SCENE!getArthur:->@Comp301Tags.AVATAR,
+			@Comp301Tags.BRIDGE_SCENE!getLancelot:->@Comp301Tags.AVATAR,
+			java.awt.Color!equals:*->.*,
+			java.awt.event.MouseEvent!getY:*->.*,
+			util.models.AListenableVector!equals:*->.*,
+			java.util.AbstractList!equals:*->.*,
+			javax.swing.AbstractButton!setEnabled:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.FACTORY_CLASS"/>
+		<property name="expectedSignatures" value="
+			delegatingBridgeSceneViewFactoryMethod:->@Comp301Tags.DELEGATING_BRIDGE_SCENE_VIEW,
+			observableBridgeScenePainterFactoryMethod:->@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER,
+			broadcastingClearanceManagerFactoryMethod:->.*,
+			bridgeSceneButtonsFactoryMethod:->grail.extras.PanelButton,
+			avatarTableFactoryMethod:->@Comp301Tags.TABLE,
+			bridgeSceneControllerFactoryMethod:->@Comp301Tags.BRIDGE_SCENE_CONTROLLER,
+			legsFactoryMethod:double;double;double;double;int;int->@Comp301Tags.ANGLE,
+			helperFactoryMethod:->.*,
+			consoleSceneViewFactoryMethod:->@Comp301Tags.CONSOLE_SCENE_VIEW,
+			inheritingBridgeScenePainterFactoryMethod:->@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER,
+			bridgeSceneFactoryMethod:->@Comp301Tags.BRIDGE_SCENE,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.FACTORY_CLASS"/>
+		<property name="expectedSignatures" value="
+			delegatingBridgeSceneViewFactoryMethod:->@Comp301Tags.DELEGATING_BRIDGE_SCENE_VIEW,
+			observableBridgeScenePainterFactoryMethod:->@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER,
+			broadcastingClearanceManagerFactoryMethod:->.*,
+			bridgeSceneButtonsFactoryMethod:->grail.extras.PanelButton,
+			avatarTableFactoryMethod:->@Comp301Tags.TABLE,
+			bridgeSceneControllerFactoryMethod:->@Comp301Tags.BRIDGE_SCENE_CONTROLLER,
+			legsFactoryMethod:double;double;double;double;int;int->@Comp301Tags.ANGLE,
+			helperFactoryMethod:->.*,
+			consoleSceneViewFactoryMethod:->@Comp301Tags.CONSOLE_SCENE_VIEW,
+			inheritingBridgeScenePainterFactoryMethod:->@Comp301Tags.INHERITING_BRIDGE_SCENE_PAINTER,
+			bridgeSceneFactoryMethod:->@Comp301Tags.BRIDGE_SCENE,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@Comp301Tags.FACTORY_CLASS"/>
+		<property name="expectedCalls" value="
+			util.models.AListenableVector!add:*->.*,
+			java.util.Vector!add:*->.*,
+			java.util.ArrayList!add:*->.*,
+			java.awt.Component!setLocation:*->.*,
+			java.awt.Container!setLayout:*->.*,
+			java.awt.Component!setBounds:*->.*,
+			java.awt.Component!add:*->.*,
+			bus.uigen.OEFrame!setLocation:*->.*,
+			java.awt.Component!setFocusable:boolean->void,
+			java.util.AbstractCollection!add:*->.*,
+			java.awt.Point!setLocation:*->.*,
+			javax.swing.JFrame!setLayout:*->.*,
+			java.awt.Window!setLocation:*->.*,
+			java.awt.Rectangle!setSize:*->.*,
+			java.awt.Window!setVisible:*->.*,
+			java.awt.Rectangle!add:*->.*,
+			java.awt.geom.Point2D!setLocation:*->.*,
+			javax.swing.JComponent!setVisible:*->.*,
+			java.awt.Rectangle!setBounds:*->.*,
+			java.util.AbstractList!add:*->.*,
+			bus.uigen.OEFrame!setVisible:*->.*,
+			javax.swing.AbstractButton!setLayout:*->.*,
+			java.awt.Window!setBounds:*->.*,
+			java.awt.Component!setSize:*->.*,
+			java.awt.geom.Dimension2D!setSize:*->.*,
+			java.awt.Container!add:*->.*,
+			java.util.Collection!add:*->.*,
+			java.awt.Dimension!setSize:*->.*,
+			java.awt.Menu!add:*->.*,
+			java.awt.geom.Rectangle2D!add:*->.*,
+			javax.swing.AbstractButton!setText:*->.*,
+			java.io.PrintStream!println:*->.*,
+			bus.uigen.OEFrame!setSize:*->.*,
+			java.awt.Window!setSize:*->.*,
+			java.awt.Component!setVisible:*->.*,
+			java.util.Set!add:*->.*,
+			java.util.List!add:*->.*,
+			java.awt.Rectangle!setLocation:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!add:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@Comp301Tags.FACTORY_CLASS"/>
+		<property name="expectedCalls" value="
+			util.models.AListenableVector!add:*->.*,
+			java.util.Vector!add:*->.*,
+			java.util.ArrayList!add:*->.*,
+			java.awt.Component!setLocation:*->.*,
+			java.awt.Container!setLayout:*->.*,
+			java.awt.Component!setBounds:*->.*,
+			java.awt.Component!add:*->.*,
+			bus.uigen.OEFrame!setLocation:*->.*,
+			java.awt.Component!setFocusable:boolean->void,
+			java.util.AbstractCollection!add:*->.*,
+			java.awt.Point!setLocation:*->.*,
+			javax.swing.JFrame!setLayout:*->.*,
+			java.awt.Window!setLocation:*->.*,
+			java.awt.Rectangle!setSize:*->.*,
+			java.awt.Window!setVisible:*->.*,
+			java.awt.Rectangle!add:*->.*,
+			java.awt.geom.Point2D!setLocation:*->.*,
+			javax.swing.JComponent!setVisible:*->.*,
+			java.awt.Rectangle!setBounds:*->.*,
+			java.util.AbstractList!add:*->.*,
+			bus.uigen.OEFrame!setVisible:*->.*,
+			javax.swing.AbstractButton!setLayout:*->.*,
+			java.awt.Window!setBounds:*->.*,
+			java.awt.Component!setSize:*->.*,
+			java.awt.geom.Dimension2D!setSize:*->.*,
+			java.awt.Container!add:*->.*,
+			java.util.Collection!add:*->.*,
+			java.awt.Dimension!setSize:*->.*,
+			java.awt.Menu!add:*->.*,
+			java.awt.geom.Rectangle2D!add:*->.*,
+			javax.swing.AbstractButton!setText:*->.*,
+			java.io.PrintStream!println:*->.*,
+			bus.uigen.OEFrame!setSize:*->.*,
+			java.awt.Window!setSize:*->.*,
+			java.awt.Component!setVisible:*->.*,
+			java.util.Set!add:*->.*,
+			java.util.List!add:*->.*,
+			java.awt.Rectangle!setLocation:*->.*,
+			@Comp301Tags.OBSERVABLE_BRIDGE_SCENE_PAINTER!add:*->.*,
+		"/>
+	</module>

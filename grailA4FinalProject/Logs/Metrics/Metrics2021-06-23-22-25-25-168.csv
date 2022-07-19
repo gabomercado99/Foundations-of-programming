@@ -1,0 +1,2 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+21,,Wed Jun 23 22:37:37 EDT 2021,Alocatable.java,1624502257909,27868,0,(I)15(R)1(I)1,0.9411764705882353,0.0,0.0,0.0,0.0,0.0,0.6296296296296297,0.0,0.0,0.0,0.0,0.037037037037037035,0.5925925925925926,0.0,[]

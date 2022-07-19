@@ -1,0 +1,83 @@
+<Events startTimestamp="1623004360629" logVersion="1.0.0.202106032010">
+  <Command __id="321" _type="PauseCommand" date="Sun Jun 06 22:57:56 EDT 2021" range="5s-10s" starttimestamp="1623004360629" timestamp="30316094">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[9866]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="320" _type="MoveCaretCommand" caretOffset="401" date="Sun Jun 06 22:57:56 EDT 2021" docOffset="582" starttimestamp="1623004360629" timestamp="30316094" />
+  <Command __id="325" _type="PauseCommand" date="Sun Jun 06 22:58:13 EDT 2021" range="10s-20s" starttimestamp="1623004360629" timestamp="30333168">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[10395]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="324" _type="MoveCaretCommand" caretOffset="462" date="Sun Jun 06 22:58:13 EDT 2021" docOffset="643" starttimestamp="1623004360629" timestamp="30333168" />
+  <Command __id="329" _type="PauseCommand" date="Sun Jun 06 22:58:27 EDT 2021" range="5s-10s" starttimestamp="1623004360629" timestamp="30346390">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[9171]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="328" _type="MoveCaretCommand" caretOffset="505" date="Sun Jun 06 22:58:27 EDT 2021" docOffset="686" starttimestamp="1623004360629" timestamp="30346390" />
+  <Command __id="333" _type="PauseCommand" date="Sun Jun 06 22:58:40 EDT 2021" range="10s-20s" starttimestamp="1623004360629" timestamp="30360123">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[10347]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="332" _type="MoveCaretCommand" caretOffset="550" date="Sun Jun 06 22:58:40 EDT 2021" docOffset="731" starttimestamp="1623004360629" timestamp="30360123" />
+  <Command __id="337" _type="PauseCommand" date="Sun Jun 06 22:58:52 EDT 2021" range="5s-10s" starttimestamp="1623004360629" timestamp="30372299">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[8299]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="336" _type="MoveCaretCommand" caretOffset="720" date="Sun Jun 06 22:58:52 EDT 2021" docOffset="901" starttimestamp="1623004360629" timestamp="30372299" />
+  <Command __id="341" _type="PauseCommand" date="Sun Jun 06 22:59:03 EDT 2021" range="5s-10s" starttimestamp="1623004360629" timestamp="30383031">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7286]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="340" _type="MoveCaretCommand" caretOffset="768" date="Sun Jun 06 22:59:03 EDT 2021" docOffset="949" starttimestamp="1623004360629" timestamp="30383031" />
+  <Command __id="1312" _type="PauseCommand" date="Mon Jun 07 11:06:23 EDT 2021" range="5s-10s" starttimestamp="1623004360629" timestamp="74023128">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[9905]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="1313" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.open.editor" date="Mon Jun 07 11:06:23 EDT 2021" starttimestamp="1623004360629" timestamp="74023186" />
+  <Command __id="1314" _type="SelectTextCommand" caretOffset="16393" date="Mon Jun 07 11:06:24 EDT 2021" end="16393" start="16385" starttimestamp="1623004360629" timestamp="74023374" />
+  <Command __id="1540" _type="PauseCommand" date="Mon Jun 07 12:35:26 EDT 2021" range="2s-5s" starttimestamp="1623004360629" timestamp="79365656">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2058]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1539" _type="ShellCommand" date="Mon Jun 07 12:35:26 EDT 2021" starttimestamp="1623004360629" timestamp="79365656" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="1542" _type="MoveCaretCommand" caretOffset="517" date="Mon Jun 07 12:35:26 EDT 2021" docOffset="851" starttimestamp="1623004360629" timestamp="79365835" />
+  <Command __id="1630" _type="PauseCommand" date="Mon Jun 07 12:58:31 EDT 2021" range="2s-5s" starttimestamp="1623004360629" timestamp="80750896">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3065]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="1629" _type="EclipseCommand" commandID="org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy" date="Mon Jun 07 12:58:31 EDT 2021" starttimestamp="1623004360629" timestamp="80750896" />
+  <Command __id="1632" _type="PauseCommand" date="Mon Jun 07 12:59:10 EDT 2021" range="30s-1m" starttimestamp="1623004360629" timestamp="80789608">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[38712]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="1631" _type="ShellCommand" date="Mon Jun 07 12:59:10 EDT 2021" starttimestamp="1623004360629" timestamp="80789608" type="ECLIPSE_LOST_FOCUS" />

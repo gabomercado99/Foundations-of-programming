@@ -1,0 +1,27 @@
+<Events startTimestamp="1624501525168" logVersion="1.0.0.202106120908">
+  <Command __id="761" _type="PauseCommand" date="Wed Jun 23 22:38:05 EDT 2021" range="2s-5s" starttimestamp="1624501525168" timestamp="760609">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2598]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="760" _type="SelectTextCommand" caretOffset="52" date="Wed Jun 23 22:38:05 EDT 2021" end="53" start="52" starttimestamp="1624501525168" timestamp="760609" />
+  <Command __id="763" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Wed Jun 23 22:38:06 EDT 2021" starttimestamp="1624501525168" timestamp="761159" />
+  <Command __id="765" _type="PauseCommand" date="Wed Jun 23 22:38:29 EDT 2021" range="20s-30s" starttimestamp="1624501525168" timestamp="783847">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[22688]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="766" _type="MoveCaretCommand" caretOffset="0" date="Wed Jun 23 22:38:29 EDT 2021" docOffset="0" starttimestamp="1624501525168" timestamp="784149" />
+  <Command __id="1623" _type="PauseCommand" date="Wed Jun 23 23:00:54 EDT 2021" range="2s-5s" starttimestamp="1624501525168" timestamp="2129391">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[4895]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[CopyCommand]]></next>
+  </Command>
+  <Command __id="1622" _type="CopyCommand" date="Wed Jun 23 23:00:54 EDT 2021" starttimestamp="1624501525168" timestamp="2129391" />
+</Events>

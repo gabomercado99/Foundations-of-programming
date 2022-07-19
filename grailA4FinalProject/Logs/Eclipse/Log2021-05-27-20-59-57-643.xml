@@ -1,0 +1,514 @@
+<Events startTimestamp="1622163597643" logVersion="1.0.0.202105271310">
+  <Command __id="1" _type="EclipseCommand" commandID="" date="Thu May 27 20:59:57 EDT 2021" starttimestamp="1622163597643" timestamp="170" />
+  <Command __id="2" _type="EclipseCommand" commandID="" date="Thu May 27 20:59:57 EDT 2021" starttimestamp="1622163597643" timestamp="222" />
+  <Command __id="3" _type="MoveCaretCommand" caretOffset="3794" date="Thu May 27 20:59:57 EDT 2021" docOffset="4133" starttimestamp="1622163597643" timestamp="321" />
+  <Command __id="8" _type="PauseCommand" date="Thu May 27 21:00:12 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="14809">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1783]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="7" _type="RunCommand" date="Thu May 27 21:00:12 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="14808" type="Run" />
+  <Command __id="9" _type="RunCommand" date="Thu May 27 21:00:12 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="14810" type="Run" />
+  <Command __id="10" _type="ShellCommand" date="Thu May 27 21:00:13 EDT 2021" starttimestamp="1622163597643" timestamp="15583" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="12" _type="PauseCommand" date="Thu May 27 21:00:20 EDT 2021" range="5s-10s" starttimestamp="1622163597643" timestamp="22951">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7368]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="11" _type="ConsoleOutput" date="Thu May 27 21:00:20 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="22951" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 21:00:20 EDT 2021
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="14" _type="PauseCommand" date="Thu May 27 21:00:21 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="24266">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1315]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="13" _type="ConsoleOutput" date="Thu May 27 21:00:21 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="24266" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:32
+Running second pass checks Thu May 27 21:00:21 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 21:00:21 EDT 2021
+End O(n2) inter- and intra class method calls:Thu May 27 21:00:21 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:32¶Running second pass checks Thu May 27 21:00:21 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu May 27 21:00:21 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Thu May 27 21:00:2"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Thu May 27 21:00:22 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="24815" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Thu May 27 21:00:22 EDT 2021
+Generating checks:Thu May 27 21:00:22 EDT 2021
+Finished Generating checks:Thu May 27 21:00:22 EDT 2021
+Generating externals:Thu May 27 21:00:22 EDT 2021
+Finished Generating externals:Thu May 27 21:00:22 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:32¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Thu May 27 21:00:2"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method call"), Diff(INSERT,"Generating checks:Thu May 27 21:00:22 EDT 2021¶Finished Generating check"), Diff(EQUAL,"s:Thu May 27 21:00:2"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"End O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating externals:Thu May 27 21:00:22 EDT 2021¶Finished Generating externa"), Diff(EQUAL,"ls:Thu May 27 21:00:2"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="16" _type="ConsoleOutput" date="Thu May 27 21:00:22 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="24902" type="ConsoleOutput">
+    <outputString><![CDATA[LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished second pass checks:Thu May 27 21:00:22 EDT 2021¶Generating checks:Thu May 27 21:00:22 EDT 2021¶Finished Generating checks:Thu May 27 21:00:22 EDT 2021¶Generating externals:Thu May 27 21:00:22 EDT 2021¶Finish"), Diff(INSERT,"eXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[Expect"), Diff(EQUAL,"ed"), Diff(DELETE," "), Diff(EQUAL,"Ge"), Diff(DELETE,"nerating externals:Thu May 27 21:00:22 EDT 2021"), Diff(INSERT,"tters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="17" _type="ConsoleOutput" date="Thu May 27 21:00:22 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="24967" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineYEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"¶"), Diff(EQUAL,"Line"), Diff(DELETE,"X"), Diff(INSERT,"YEditable"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X"), Diff(INSERT,"Y"), Diff(EQUAL,".*int.*Comp301Tags\.ROTATING_LINE.*\[Expected"), Diff(DELETE,"G"), Diff(INSERT,"S"), Diff(EQUAL,"etters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(DELETE,"¶LineX"), Diff(INSERT,"LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶LineRadius"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"Angle"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Angle.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶")]]]></diff>
+  </Command>
+  <Command __id="18" _type="ConsoleOutput" date="Thu May 27 21:00:22 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="25076" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"Angle"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Angle.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(DELETE,"LineRadiusProperty"), Diff(INSERT,"RotatingLineZeroDegree"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="22" _type="PauseCommand" date="Thu May 27 21:02:05 EDT 2021" range="1m-2m" starttimestamp="1622163597643" timestamp="128321">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[81104]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="21" _type="EclipseCommand" commandID="" date="Thu May 27 21:02:05 EDT 2021" starttimestamp="1622163597643" timestamp="128320" />
+  <Command __id="23" _type="EclipseCommand" commandID="" date="Thu May 27 21:02:06 EDT 2021" starttimestamp="1622163597643" timestamp="128374" />
+  <Command __id="25" _type="PauseCommand" date="Thu May 27 21:02:18 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="140489">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[12115]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ShellCommand" date="Thu May 27 21:02:18 EDT 2021" starttimestamp="1622163597643" timestamp="140489" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="33" _type="PauseCommand" date="Thu May 27 21:03:22 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="204967">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[19471]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="32" _type="RunCommand" date="Thu May 27 21:03:22 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="204967" type="Run" />
+  <Command __id="34" _type="RunCommand" date="Thu May 27 21:03:22 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="204969" type="Run" />
+  <Command __id="36" _type="PauseCommand" date="Thu May 27 21:04:17 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="259789">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[54820]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="37" _type="MoveCaretCommand" caretOffset="90" date="Thu May 27 21:04:17 EDT 2021" docOffset="209" starttimestamp="1622163597643" timestamp="260075" />
+  <Command __id="39" _type="PauseCommand" date="Thu May 27 21:04:55 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="297831">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[37756]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="38" _type="ShellCommand" date="Thu May 27 21:04:55 EDT 2021" starttimestamp="1622163597643" timestamp="297831" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="41" _type="PauseCommand" date="Thu May 27 21:05:48 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="351241">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[53410]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="40" _type="ShellCommand" date="Thu May 27 21:05:48 EDT 2021" starttimestamp="1622163597643" timestamp="351241" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="42" _type="EclipseCommand" commandID="org.eclipse.ui.window.preferences" date="Thu May 27 21:05:48 EDT 2021" starttimestamp="1622163597643" timestamp="351245" />
+  <Command __id="44" _type="PauseCommand" date="Thu May 27 21:06:20 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="382700">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[31454]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="43" _type="ShellCommand" date="Thu May 27 21:06:20 EDT 2021" starttimestamp="1622163597643" timestamp="382699" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="48" _type="PauseCommand" date="Thu May 27 21:07:34 EDT 2021" range="20s-30s" starttimestamp="1622163597643" timestamp="456373">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[25588]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="47" _type="RunCommand" date="Thu May 27 21:07:34 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="456373" type="Run" />
+  <Command __id="49" _type="RunCommand" date="Thu May 27 21:07:34 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="456373" type="Run" />
+  <Command __id="50" _type="ShellCommand" date="Thu May 27 21:07:34 EDT 2021" starttimestamp="1622163597643" timestamp="457057" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="52" _type="PauseCommand" date="Thu May 27 21:07:47 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="469559">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[12502]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="51" _type="ConsoleOutput" date="Thu May 27 21:07:47 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="469559" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 21:07:47 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test"), Diff(INSERT,"Building symbol table and running first pass checks:Thu May 27 21:07:47 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="54" _type="PauseCommand" date="Thu May 27 21:07:48 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="470691">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1132]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="53" _type="ConsoleOutput" date="Thu May 27 21:07:48 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="470691" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:32
+Running second pass checks Thu May 27 21:07:48 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 21:07:48 EDT 2021
+End O(n2) inter- and intra class method calls:Thu May 27 21:07:48 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:32¶Running second pass checks Thu May 27 21:07:48 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu May 27 21:07:48 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Thu May 27 21:07:4"), Diff(DELETE,"7"), Diff(INSERT,"8"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="55" _type="ConsoleOutput" date="Thu May 27 21:07:48 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="471260" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Thu May 27 21:07:48 EDT 2021
+Generating checks:Thu May 27 21:07:48 EDT 2021
+Finished Generating checks:Thu May 27 21:07:48 EDT 2021
+Generating externals:Thu May 27 21:07:48 EDT 2021
+Finished Generating externals:Thu May 27 21:07:48 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:32¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Thu May 27 21:07:48 EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method calls:Thu May 27 21:07:48 EDT 2021¶End O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating checks:Thu May 27 21:07:48 EDT 2021¶Finished Generating checks:Thu May 27 21:07:48 EDT 2021¶Generating externals:Thu May 27 21:07:48 EDT 2021¶Finished Generating externa"), Diff(EQUAL,"ls:Thu May 27 21:07:48 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="56" _type="ConsoleOutput" date="Thu May 27 21:07:48 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="471333" type="ConsoleOutput">
+    <outputString><![CDATA[LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished second pass checks:Thu May 27 21:07:48 EDT 2021¶Generating checks:Thu May 27 21:07:48 EDT 2021¶Finished Generating checks:Thu May 27 21:07:48 EDT 2021¶Generating externals:Thu May 27 21:07:48 EDT 2021¶Finish"), Diff(INSERT,"eXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[Expect"), Diff(EQUAL,"ed"), Diff(DELETE," "), Diff(EQUAL,"Ge"), Diff(DELETE,"nerating externals:Thu May 27 21:07:48 EDT 2021"), Diff(INSERT,"tters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="57" _type="ConsoleOutput" date="Thu May 27 21:07:49 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="471393" type="ConsoleOutput">
+    <outputString><![CDATA[LineYEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Line"), Diff(DELETE,"X"), Diff(INSERT,"YEditable"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X"), Diff(INSERT,"Y"), Diff(EQUAL,".*int.*Comp301Tags\.ROTATING_LINE.*\[Expected"), Diff(DELETE,"G"), Diff(INSERT,"S"), Diff(EQUAL,"etters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(DELETE,"¶"), Diff(EQUAL,"Line"), Diff(DELETE,"XEditable"), Diff(INSERT,"Radius"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[Expected"), Diff(DELETE,"S"), Diff(INSERT,"G"), Diff(EQUAL,"etters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"RadiusEditable"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[Expected"), Diff(DELETE,"G"), Diff(INSERT,"S"), Diff(EQUAL,"etters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶")]]]></diff>
+  </Command>
+  <Command __id="58" _type="ConsoleOutput" date="Thu May 27 21:07:49 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="471458" type="ConsoleOutput">
+    <outputString><![CDATA[LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Line"), Diff(DELETE,"YEditab"), Diff(INSERT,"Ang"), Diff(EQUAL,"leProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius"), Diff(INSERT,"Angle"), Diff(EQUAL,".*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶Line"), Diff(DELETE,"Radius"), Diff(INSERT,"Angle"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Radius"), Diff(INSERT,"Angle"), Diff(EQUAL,".*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"¶")]]]></diff>
+  </Command>
+  <Command __id="59" _type="ConsoleOutput" date="Thu May 27 21:07:49 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="471542" type="ConsoleOutput">
+    <outputString><![CDATA[RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"LineAngleProperty"), Diff(INSERT,"RotatingLineZeroDegree"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class name"), Diff(INSERT,"Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite an"), Diff(EQUAL,"d "), Diff(INSERT,"c"), Diff(EQUAL,"or"), Diff(DELETE," tagged properly and checkstyle file upto date?%0.0¶¶LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"rect test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="61" _type="PauseCommand" date="Thu May 27 21:18:37 EDT 2021" range="10m-20m" starttimestamp="1622163597643" timestamp="1119904">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[648361]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="60" _type="ShellCommand" date="Thu May 27 21:18:37 EDT 2021" starttimestamp="1622163597643" timestamp="1119903" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="63" _type="PauseCommand" date="Thu May 27 21:20:03 EDT 2021" range="1m-2m" starttimestamp="1622163597643" timestamp="1205385">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[85482]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="64" _type="MoveCaretCommand" caretOffset="159" date="Thu May 27 21:20:03 EDT 2021" docOffset="265" starttimestamp="1622163597643" timestamp="1205643" />
+  <Command __id="66" _type="PauseCommand" date="Thu May 27 21:20:54 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="1256548">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[50905]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="65" _type="MoveCaretCommand" caretOffset="724" date="Thu May 27 21:20:54 EDT 2021" docOffset="830" starttimestamp="1622163597643" timestamp="1256548" />
+  <Command __id="68" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 21:20:54 EDT 2021" starttimestamp="1622163597643" timestamp="1257149" />
+  <Command __id="70" _type="PauseCommand" date="Thu May 27 21:20:56 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1259309">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2160]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="69" _type="MoveCaretCommand" caretOffset="750" date="Thu May 27 21:20:56 EDT 2021" docOffset="856" starttimestamp="1622163597643" timestamp="1259309" />
+  <Command __id="72" _type="PauseCommand" date="Thu May 27 21:20:59 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1261421">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2112]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="71" _type="MoveCaretCommand" caretOffset="736" date="Thu May 27 21:20:59 EDT 2021" docOffset="842" starttimestamp="1622163597643" timestamp="1261421" />
+  <Command __id="74" _type="PauseCommand" date="Thu May 27 21:22:31 EDT 2021" range="1m-2m" starttimestamp="1622163597643" timestamp="1354259">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[92837]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="73" _type="ShellCommand" date="Thu May 27 21:22:31 EDT 2021" starttimestamp="1622163597643" timestamp="1354258" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="80" _type="PauseCommand" date="Thu May 27 21:26:26 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="1589043">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[31123]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="79" _type="EclipseCommand" commandID="" date="Thu May 27 21:26:26 EDT 2021" starttimestamp="1622163597643" timestamp="1589043" />
+  <Command __id="81" _type="EclipseCommand" commandID="" date="Thu May 27 21:26:26 EDT 2021" starttimestamp="1622163597643" timestamp="1589049" />
+  <Command __id="85" _type="PauseCommand" date="Thu May 27 21:26:40 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1603148">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2292]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="84" _type="ShellCommand" date="Thu May 27 21:26:40 EDT 2021" starttimestamp="1622163597643" timestamp="1603148" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="86" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu May 27 21:26:40 EDT 2021" starttimestamp="1622163597643" timestamp="1603153" />
+  <Command __id="87" _type="EclipseCommand" commandID="" date="Thu May 27 21:26:40 EDT 2021" starttimestamp="1622163597643" timestamp="1603172" />
+  <Command __id="88" _type="EclipseCommand" commandID="" date="Thu May 27 21:26:40 EDT 2021" starttimestamp="1622163597643" timestamp="1603174" />
+  <Command __id="90" _type="PauseCommand" date="Thu May 27 21:26:52 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="1614378">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[11204]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="89" _type="ShellCommand" date="Thu May 27 21:26:52 EDT 2021" starttimestamp="1622163597643" timestamp="1614378" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="92" _type="PauseCommand" date="Thu May 27 21:27:17 EDT 2021" range="20s-30s" starttimestamp="1622163597643" timestamp="1640288">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[25910]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="91" _type="ShellCommand" date="Thu May 27 21:27:17 EDT 2021" starttimestamp="1622163597643" timestamp="1640288" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="93" _type="EclipseCommand" commandID="org.eclipse.ui.window.preferences" date="Thu May 27 21:27:17 EDT 2021" starttimestamp="1622163597643" timestamp="1640292" />
+  <Command __id="97" _type="PauseCommand" date="Thu May 27 21:27:53 EDT 2021" range="20s-30s" starttimestamp="1622163597643" timestamp="1675486">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[27568]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="96" _type="EclipseCommand" commandID="" date="Thu May 27 21:27:53 EDT 2021" starttimestamp="1622163597643" timestamp="1675486" />
+  <Command __id="98" _type="EclipseCommand" commandID="" date="Thu May 27 21:27:53 EDT 2021" starttimestamp="1622163597643" timestamp="1675488" />
+  <Command __id="100" _type="PauseCommand" date="Thu May 27 21:27:55 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="1677448">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1960]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="99" _type="ShellCommand" date="Thu May 27 21:27:55 EDT 2021" starttimestamp="1622163597643" timestamp="1677448" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="101" _type="EclipseCommand" commandID="org.eclipse.ui.file.properties" date="Thu May 27 21:27:55 EDT 2021" starttimestamp="1622163597643" timestamp="1677452" />
+  <Command __id="103" _type="PauseCommand" date="Thu May 27 21:28:03 EDT 2021" range="5s-10s" starttimestamp="1622163597643" timestamp="1685369">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7917]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="102" _type="ShellCommand" date="Thu May 27 21:28:03 EDT 2021" starttimestamp="1622163597643" timestamp="1685369" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="105" _type="PauseCommand" date="Thu May 27 21:28:09 EDT 2021" range="5s-10s" starttimestamp="1622163597643" timestamp="1691512">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6143]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="104" _type="ShellCommand" date="Thu May 27 21:28:09 EDT 2021" starttimestamp="1622163597643" timestamp="1691512" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="106" _type="EclipseCommand" commandID="org.eclipse.ui.file.properties" date="Thu May 27 21:28:09 EDT 2021" starttimestamp="1622163597643" timestamp="1691516" />
+  <Command __id="108" _type="PauseCommand" date="Thu May 27 21:28:13 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1696134">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4618]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="107" _type="ShellCommand" date="Thu May 27 21:28:13 EDT 2021" starttimestamp="1622163597643" timestamp="1696134" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="110" _type="PauseCommand" date="Thu May 27 21:28:58 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="1740420">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[44286]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="109" _type="ShellCommand" date="Thu May 27 21:28:58 EDT 2021" starttimestamp="1622163597643" timestamp="1740420" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="111" _type="EclipseCommand" commandID="org.eclipse.ui.window.preferences" date="Thu May 27 21:28:58 EDT 2021" starttimestamp="1622163597643" timestamp="1740424" />
+  <Command __id="113" _type="PauseCommand" date="Thu May 27 21:29:10 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="1753010">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[12585]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="112" _type="ShellCommand" date="Thu May 27 21:29:10 EDT 2021" starttimestamp="1622163597643" timestamp="1753009" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="115" _type="PauseCommand" date="Thu May 27 21:30:14 EDT 2021" range="1m-2m" starttimestamp="1622163597643" timestamp="1816944">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[63935]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="114" _type="EclipseCommand" commandID="org.eclipse.ui.file.refresh" date="Thu May 27 21:30:14 EDT 2021" starttimestamp="1622163597643" timestamp="1816944" />
+  <Command __id="116" _type="EclipseCommand" commandID="" date="Thu May 27 21:30:14 EDT 2021" starttimestamp="1622163597643" timestamp="1817110" />
+  <Command __id="117" _type="EclipseCommand" commandID="" date="Thu May 27 21:30:14 EDT 2021" starttimestamp="1622163597643" timestamp="1817114" />
+  <Command __id="118" _type="EclipseCommand" commandID="" date="Thu May 27 21:30:14 EDT 2021" starttimestamp="1622163597643" timestamp="1817115" />
+  <Command __id="119" _type="EclipseCommand" commandID="" date="Thu May 27 21:30:14 EDT 2021" starttimestamp="1622163597643" timestamp="1817116" />
+  <Command __id="121" _type="PauseCommand" date="Thu May 27 21:30:35 EDT 2021" range="20s-30s" starttimestamp="1622163597643" timestamp="1837456">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[20340]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="120" _type="ShellCommand" date="Thu May 27 21:30:35 EDT 2021" starttimestamp="1622163597643" timestamp="1837456" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="123" _type="PauseCommand" date="Thu May 27 21:30:37 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1839663">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2207]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="122" _type="ShellCommand" date="Thu May 27 21:30:37 EDT 2021" starttimestamp="1622163597643" timestamp="1839663" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="125" _type="PauseCommand" date="Thu May 27 21:31:33 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="1895390">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[55727]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="124" _type="ShellCommand" date="Thu May 27 21:31:33 EDT 2021" starttimestamp="1622163597643" timestamp="1895390" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="126" _type="EclipseCommand" commandID="org.eclipse.ui.window.preferences" date="Thu May 27 21:31:33 EDT 2021" starttimestamp="1622163597643" timestamp="1895394" />
+  <Command __id="128" _type="PauseCommand" date="Thu May 27 21:31:38 EDT 2021" range="5s-10s" starttimestamp="1622163597643" timestamp="1901117">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[5723]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="127" _type="EclipseCommand" commandID="org.eclipse.ui.file.refresh" date="Thu May 27 21:31:38 EDT 2021" starttimestamp="1622163597643" timestamp="1901117" />
+  <Command __id="129" _type="EclipseCommand" commandID="" date="Thu May 27 21:31:38 EDT 2021" starttimestamp="1622163597643" timestamp="1901238" />
+  <Command __id="130" _type="EclipseCommand" commandID="" date="Thu May 27 21:31:38 EDT 2021" starttimestamp="1622163597643" timestamp="1901239" />
+  <Command __id="132" _type="PauseCommand" date="Thu May 27 21:31:50 EDT 2021" range="10s-20s" starttimestamp="1622163597643" timestamp="1912362">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[11123]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="133" _type="MoveCaretCommand" caretOffset="946" date="Thu May 27 21:31:50 EDT 2021" docOffset="1091" starttimestamp="1622163597643" timestamp="1912607" />
+  <Command __id="135" _type="PauseCommand" date="Thu May 27 21:31:53 EDT 2021" range="2s-5s" starttimestamp="1622163597643" timestamp="1916230">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3623]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="134" _type="ShellCommand" date="Thu May 27 21:31:53 EDT 2021" starttimestamp="1622163597643" timestamp="1916230" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="137" _type="PauseCommand" date="Thu May 27 21:31:55 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="1917835">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1605]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="136" _type="ShellCommand" date="Thu May 27 21:31:55 EDT 2021" starttimestamp="1622163597643" timestamp="1917835" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="138" _type="EclipseCommand" commandID="" date="Thu May 27 21:31:55 EDT 2021" starttimestamp="1622163597643" timestamp="1917974" />
+  <Command __id="139" _type="EclipseCommand" commandID="" date="Thu May 27 21:31:55 EDT 2021" starttimestamp="1622163597643" timestamp="1918030" />
+  <Command __id="140" _type="RunCommand" date="Thu May 27 21:31:56 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="1919016" type="Run" />
+  <Command __id="141" _type="RunCommand" date="Thu May 27 21:31:56 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="1919016" type="Run" />
+  <Command __id="142" _type="ShellCommand" date="Thu May 27 21:31:57 EDT 2021" starttimestamp="1622163597643" timestamp="1919745" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="144" _type="PauseCommand" date="Thu May 27 21:32:06 EDT 2021" range="5s-10s" starttimestamp="1622163597643" timestamp="1929354">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[9609]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="143" _type="ConsoleOutput" date="Thu May 27 21:32:06 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="1929354" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 21:32:06 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test"), Diff(INSERT,"Building symbol table and running first pass checks:Thu May 27 21:32:06 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="146" _type="PauseCommand" date="Thu May 27 21:32:08 EDT 2021" range="1s-2s" starttimestamp="1622163597643" timestamp="1930545">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1191]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="145" _type="ConsoleOutput" date="Thu May 27 21:32:08 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="1930545" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:32
+Running second pass checks Thu May 27 21:32:08 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 21:32:08 EDT 2021
+End O(n2) inter- and intra class method calls:Thu May 27 21:32:08 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:32¶Running second pass checks Thu May 27 21:32:08 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu May 27 21:32:08 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Thu May 27 21:32:0"), Diff(DELETE,"6"), Diff(INSERT,"8"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="147" _type="ConsoleOutput" date="Thu May 27 21:32:08 EDT 2021" overflow="false" starttimestamp="1622163597643" timestamp="1931110" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Thu May 27 21:32:08 EDT 2021
+Generating checks:Thu May 27 21:32:08 EDT 2021
+Finished Generating checks:Thu May 27 21:32:08 EDT 2021
+Generating externals:Thu May 27 21:32:08 EDT 2021
+Finished Generating externals:Thu May 27 21:32:08 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:32¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Thu May 27 21:32:08 EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method calls:Thu May 27 21:32:08 EDT 2021¶End O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating checks:Thu May 27 21:32:08 EDT 2021¶Finished Generating checks:Thu May 27 21:32:08 EDT 2021¶Generating externals:Thu May 27 21:32:08 EDT 2021¶Finished Generating externa"), Diff(EQUAL,"ls:Thu May 27 21:32:08 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="149" _type="PauseCommand" date="Thu May 27 21:32:40 EDT 2021" range="30s-1m" starttimestamp="1622163597643" timestamp="1963054">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[31944]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="148" _type="ShellCommand" date="Thu May 27 21:32:40 EDT 2021" starttimestamp="1622163597643" timestamp="1963054" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="150" _type="RunCommand" date="Thu May 27 21:32:40 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="1963084" type="Run" />
+  <Command __id="151" _type="RunCommand" date="Thu May 27 21:32:40 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163597643" timestamp="1963084" type="Run" />
+</Events>

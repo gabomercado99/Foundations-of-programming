@@ -1,0 +1,34 @@
+<Events startTimestamp="1634219390980" logVersion="1.0.0.202106120908">
+  <Command __id="98" _type="PauseCommand" date="Thu Oct 14 09:53:08 EDT 2021" range="5s-10s" starttimestamp="1634219390980" timestamp="197288">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8663]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="97" _type="ShellCommand" date="Thu Oct 14 09:53:08 EDT 2021" starttimestamp="1634219390980" timestamp="197288" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="100" _type="PauseCommand" date="Thu Oct 14 09:54:31 EDT 2021" range="1m-2m" starttimestamp="1634219390980" timestamp="280786">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[83497]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="101" _type="MoveCaretCommand" caretOffset="0" date="Thu Oct 14 09:54:32 EDT 2021" docOffset="0" starttimestamp="1634219390980" timestamp="281136" />
+  <Command __id="103" _type="PauseCommand" date="Thu Oct 14 09:54:33 EDT 2021" range="1s-2s" starttimestamp="1634219390980" timestamp="282271">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1135]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="104" _type="MoveCaretCommand" caretOffset="0" date="Thu Oct 14 09:54:33 EDT 2021" docOffset="0" starttimestamp="1634219390980" timestamp="282527" />
+  <Command __id="106" _type="PauseCommand" date="Thu Oct 14 09:56:15 EDT 2021" range="1m-2m" starttimestamp="1634219390980" timestamp="384121">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[101594]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="105" _type="ShellCommand" date="Thu Oct 14 09:56:15 EDT 2021" starttimestamp="1634219390980" timestamp="384121" type="ECLIPSE_LOST_FOCUS" />
+</Events>

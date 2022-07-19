@@ -1,0 +1,182 @@
+<Events startTimestamp="1622163423457" logVersion="1.0.0.202105271310">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="159" date="Thu May 27 20:57:03 EDT 2021" docOffset="265" starttimestamp="1622163423457" timestamp="391" />
+  <Command __id="3" _type="PauseCommand" date="Thu May 27 20:57:09 EDT 2021" range="5s-10s" starttimestamp="1622163423457" timestamp="5729">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5334]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="4" _type="MoveCaretCommand" caretOffset="1690" date="Thu May 27 20:57:09 EDT 2021" docOffset="2054" starttimestamp="1622163423457" timestamp="5879" />
+  <Command __id="6" _type="PauseCommand" date="Thu May 27 20:57:26 EDT 2021" range="10s-20s" starttimestamp="1622163423457" timestamp="22959">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[17079]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="5" _type="ShellCommand" date="Thu May 27 20:57:26 EDT 2021" starttimestamp="1622163423457" timestamp="22958" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8" _type="PauseCommand" date="Thu May 27 20:57:37 EDT 2021" range="10s-20s" starttimestamp="1622163423457" timestamp="34184">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[11226]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="7" _type="ShellCommand" date="Thu May 27 20:57:37 EDT 2021" starttimestamp="1622163423457" timestamp="34184" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9" _type="MoveCaretCommand" caretOffset="2513" date="Thu May 27 20:57:37 EDT 2021" docOffset="2877" starttimestamp="1622163423457" timestamp="34400" />
+  <Command __id="11" _type="PauseCommand" date="Thu May 27 20:57:44 EDT 2021" range="5s-10s" starttimestamp="1622163423457" timestamp="41086">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6686]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="12" _type="MoveCaretCommand" caretOffset="21" date="Thu May 27 20:57:44 EDT 2021" docOffset="21" starttimestamp="1622163423457" timestamp="41263" />
+  <Command __id="14" _type="PauseCommand" date="Thu May 27 20:57:46 EDT 2021" range="1s-2s" starttimestamp="1622163423457" timestamp="42692">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1429]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="15" _type="SelectTextCommand" caretOffset="127" date="Thu May 27 20:57:46 EDT 2021" end="127" start="72" starttimestamp="1622163423457" timestamp="42851" />
+  <Command __id="17" _type="PauseCommand" date="Thu May 27 20:57:47 EDT 2021" range="1s-2s" starttimestamp="1622163423457" timestamp="44118">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[1267]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="18" _type="MoveCaretCommand" caretOffset="29" date="Thu May 27 20:57:47 EDT 2021" docOffset="29" starttimestamp="1622163423457" timestamp="44228" />
+  <Command __id="20" _type="PauseCommand" date="Thu May 27 20:57:49 EDT 2021" range="1s-2s" starttimestamp="1622163423457" timestamp="46198">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1970]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="21" _type="MoveCaretCommand" caretOffset="946" date="Thu May 27 20:57:49 EDT 2021" docOffset="1091" starttimestamp="1622163423457" timestamp="46315" />
+  <Command __id="23" _type="PauseCommand" date="Thu May 27 20:57:52 EDT 2021" range="2s-5s" starttimestamp="1622163423457" timestamp="49014">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2699]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="24" _type="MoveCaretCommand" caretOffset="3794" date="Thu May 27 20:57:52 EDT 2021" docOffset="4133" starttimestamp="1622163423457" timestamp="49134" />
+  <Command __id="26" _type="PauseCommand" date="Thu May 27 20:57:58 EDT 2021" range="5s-10s" starttimestamp="1622163423457" timestamp="55041">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5907]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="27" _type="MoveCaretCommand" caretOffset="89" date="Thu May 27 20:57:58 EDT 2021" docOffset="89" starttimestamp="1622163423457" timestamp="55200" />
+  <Command __id="32" _type="PauseCommand" date="Thu May 27 20:58:14 EDT 2021" range="10s-20s" starttimestamp="1622163423457" timestamp="70903">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[13264]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="31" _type="RunCommand" date="Thu May 27 20:58:14 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163423457" timestamp="70902" type="Run" />
+  <Command __id="33" _type="RunCommand" date="Thu May 27 20:58:14 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163423457" timestamp="70903" type="Run" />
+  <Command __id="34" _type="ShellCommand" date="Thu May 27 20:58:14 EDT 2021" starttimestamp="1622163423457" timestamp="71479" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="36" _type="PauseCommand" date="Thu May 27 20:58:16 EDT 2021" range="1s-2s" starttimestamp="1622163423457" timestamp="73298">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1819]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="35" _type="ConsoleOutput" date="Thu May 27 20:58:16 EDT 2021" overflow="false" starttimestamp="1622163423457" timestamp="73298" type="ConsoleOutput">
+    <outputString><![CDATA[E***grail.compositeFigs.ArmsandLegs not recognized as a shape  as it does not have a location (X,Y or Point)
+E***Class:grail.compositeFigs.ArmsandLegs does not follow declared pattern: Line Pattern. Ignoring pattern declaration.
+W*** Assuming implicit pattern: Bean Pattern instead of: Line Pattern
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="38" _type="PauseCommand" date="Thu May 27 20:58:21 EDT 2021" range="5s-10s" starttimestamp="1622163423457" timestamp="78495">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5197]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="37" _type="ConsoleOutput" date="Thu May 27 20:58:21 EDT 2021" overflow="false" starttimestamp="1622163423457" timestamp="78495" type="ConsoleOutput">
+    <outputString><![CDATA[W*** Refreshing complete object: grail.compositeFigs.FiveChars@30c93896. If you know them, announce property and/or list events.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"E"), Diff(INSERT,"W"), Diff(EQUAL,"***"), Diff(DELETE,"grail.compositeFigs.ArmsandLegs not recognized as a shape  as it does not have a location (X,Y or Point)¶E***Class:grail.compositeFigs.ArmsandLegs does not follow declared pattern: Line Pattern. Ignoring pattern declaration.¶W*** Assuming implicit pattern: Bean Pattern instead of: Line Pattern"), Diff(INSERT," Refreshing complete object: grail.compositeFigs.FiveChars@30c93896. If you know them, announce property and/or list events."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="40" _type="PauseCommand" date="Thu May 27 20:58:26 EDT 2021" range="2s-5s" starttimestamp="1622163423457" timestamp="82809">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4314]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="39" _type="ExceptionCommand" date="Thu May 27 20:58:26 EDT 2021" starttimestamp="1622163423457" timestamp="82809" type="Exception">
+    <exceptionString><![CDATA[Exception in thread "AWT-EventQueue-0" java.lang.ArrayIndexOutOfBoundsException: 5 >= 1
+	at java.base/java.util.Vector.elementAt(Vector.java:497)
+	at java.desktop/javax.swing.tree.VariableHeightLayoutCache.getNode(VariableHeightLayoutCache.java:977)
+	at java.desktop/javax.swing.tree.VariableHeightLayoutCache.getMaxNodeWidth(VariableHeightLayoutCache.java:990)
+	at java.desktop/javax.swing.tree.VariableHeightLayoutCache.getPreferredWidth(VariableHeightLayoutCache.java:308)
+	at java.desktop/javax.swing.plaf.basic.BasicTreeUI.updateCachedPreferredSize(BasicTreeUI.java:2182)
+	at java.desktop/javax.swing.plaf.basic.BasicTreeUI.getPreferredSize(BasicTreeUI.java:2307)
+	at java.desktop/javax.swing.plaf.basic.BasicTreeUI.getPreferredSize(BasicTreeUI.java:2290)
+	at java.desktop/javax.swing.JComponent.getPreferredSize(JComponent.java:1680)
+	at java.desktop/javax.swing.ScrollPaneLayout.layoutContainer(ScrollPaneLayout.java:795)
+	at java.desktop/java.awt.Container.layout(Container.java:1537)
+	at java.desktop/java.awt.Container.doLayout(Container.java:1526)
+	at java.desktop/java.awt.Container.validateTree(Container.java:1722)
+	at java.desktop/java.awt.Container.validate(Container.java:1657)
+	at java.desktop/javax.swing.RepaintManager$3.run(RepaintManager.java:745)
+	at java.desktop/javax.swing.RepaintManager$3.run(RepaintManager.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/javax.swing.RepaintManager.validateInvalidComponents(RepaintManager.java:742)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1889)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="44" _type="PauseCommand" date="Thu May 27 20:58:55 EDT 2021" range="20s-30s" starttimestamp="1622163423457" timestamp="112090">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[27176]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="43" _type="RunCommand" date="Thu May 27 20:58:55 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163423457" timestamp="112090" type="Run" />
+  <Command __id="45" _type="RunCommand" date="Thu May 27 20:58:55 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622163423457" timestamp="112091" type="Run" />
+  <Command __id="46" _type="ShellCommand" date="Thu May 27 20:58:55 EDT 2021" starttimestamp="1622163423457" timestamp="112091" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="48" _type="PauseCommand" date="Thu May 27 20:58:57 EDT 2021" range="1s-2s" starttimestamp="1622163423457" timestamp="114059">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1968]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="49" _type="MoveCaretCommand" caretOffset="3794" date="Thu May 27 20:58:57 EDT 2021" docOffset="4133" starttimestamp="1622163423457" timestamp="114294" />
+  <Command __id="51" _type="PauseCommand" date="Thu May 27 20:59:06 EDT 2021" range="5s-10s" starttimestamp="1622163423457" timestamp="122779">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[8485]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="50" _type="ShellCommand" date="Thu May 27 20:59:06 EDT 2021" starttimestamp="1622163423457" timestamp="122779" type="ECLIPSE_LOST_FOCUS" />
+</Events>

@@ -1,0 +1,1078 @@
+<Events startTimestamp="1622160131505" logVersion="1.0.0.202105271310">
+  <Command __id="1" _type="MoveCaretCommand" caretOffset="0" date="Thu May 27 20:02:11 EDT 2021" docOffset="0" starttimestamp="1622160131505" timestamp="344" />
+  <Command __id="6" _type="PauseCommand" date="Thu May 27 20:02:24 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="13015">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4825]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="5" _type="RunCommand" date="Thu May 27 20:02:24 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="13014" type="Run" />
+  <Command __id="7" _type="RunCommand" date="Thu May 27 20:02:24 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="13016" type="Run" />
+  <Command __id="8" _type="ShellCommand" date="Thu May 27 20:02:25 EDT 2021" starttimestamp="1622160131505" timestamp="13619" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="10" _type="PauseCommand" date="Thu May 27 20:02:30 EDT 2021" range="5s-10s" starttimestamp="1622160131505" timestamp="18860">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5241]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="9" _type="ConsoleOutput" date="Thu May 27 20:02:30 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="18860" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 20:02:30 EDT 2021
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="12" _type="PauseCommand" date="Thu May 27 20:02:31 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="20023">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1163]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="11" _type="ConsoleOutput" date="Thu May 27 20:02:31 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20023" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:32
+Running second pass checks Thu May 27 20:02:31 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 20:02:31 EDT 2021
+End O(n2) inter- and intra class method calls:Thu May 27 20:02:31 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:32¶Running second pass checks Thu May 27 20:02:31 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu May 27 20:02:31 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Thu May 27 20:02:3"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="13" _type="ConsoleOutput" date="Thu May 27 20:02:32 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20602" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Thu May 27 20:02:32 EDT 2021
+Generating checks:Thu May 27 20:02:32 EDT 2021
+Finished Generating checks:Thu May 27 20:02:32 EDT 2021
+Generating externals:Thu May 27 20:02:32 EDT 2021
+Finished Generating externals:Thu May 27 20:02:32 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:32¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Thu May 27 20:02:3"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method call"), Diff(INSERT,"Generating checks:Thu May 27 20:02:32 EDT 2021¶Finished Generating check"), Diff(EQUAL,"s:Thu May 27 20:02:3"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"End O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating externals:Thu May 27 20:02:32 EDT 2021¶Finished Generating externa"), Diff(EQUAL,"ls:Thu May 27 20:02:3"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="14" _type="ConsoleOutput" date="Thu May 27 20:02:32 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20674" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished second pass checks:Thu May 27 20:02:32 EDT 2021¶Generating checks:Thu May 27 20:02:32 EDT 2021"), Diff(INSERT,"¶LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0"), Diff(EQUAL,"¶"), Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished Generating checks:Thu May 27 20:02:32 EDT 2021¶Generating externals:Thu May 27 20:02:32 EDT 2021"), Diff(INSERT,"eXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(EQUAL,"¶"), Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished Generating externals:Thu May 27 20:02:32 EDT 2021"), Diff(INSERT,"eYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Thu May 27 20:02:32 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20737" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineYEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"¶Line"), Diff(DELETE,"X"), Diff(INSERT,"YEditable"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X"), Diff(INSERT,"Y"), Diff(EQUAL,".*int.*Comp301Tags\.ROTATING_LINE.*\["), Diff(INSERT,"ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\["), Diff(EQUAL,"ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶Line"), Diff(DELETE,"X"), Diff(INSERT,"Radius"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"Angle"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Angle.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶")]]]></diff>
+  </Command>
+  <Command __id="16" _type="ConsoleOutput" date="Thu May 27 20:02:32 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20827" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"Angle"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Angle.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(DELETE,"¶LineRadiusProperty"), Diff(INSERT,"RotatingLineZeroDegree"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class name"), Diff(INSERT,"Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite an"), Diff(EQUAL,"d "), Diff(INSERT,"c"), Diff(EQUAL,"or"), Diff(DELETE," tagged properly and checkstyle file upto date?%0.0"), Diff(INSERT,"rect test  LineXProperty before running this test"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="17" _type="ConsoleOutput" date="Thu May 27 20:02:32 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="20886" type="ConsoleOutput">
+    <outputString><![CDATA[MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶RotatingLineZero"), Diff(INSERT,"MovingRotatingLineMinusFortyFive"), Diff(EQUAL,"Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶"), Diff(INSERT,"Detached"), Diff(EQUAL,"RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶"), Diff(DELETE,"RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLine"), Diff(INSERT,"DetachedRotatingLineMinus"), Diff(EQUAL,"FortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶")]]]></diff>
+  </Command>
+  <Command __id="19" _type="PauseCommand" date="Thu May 27 20:06:14 EDT 2021" range="2m-5m" starttimestamp="1622160131505" timestamp="243184">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[222298]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="18" _type="ShellCommand" date="Thu May 27 20:06:14 EDT 2021" starttimestamp="1622160131505" timestamp="243184" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="20" _type="ShellCommand" date="Thu May 27 20:06:14 EDT 2021" starttimestamp="1622160131505" timestamp="243355" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="22" _type="PauseCommand" date="Thu May 27 20:06:16 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="245369">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2014]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="21" _type="ShellCommand" date="Thu May 27 20:06:16 EDT 2021" starttimestamp="1622160131505" timestamp="245369" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="23" _type="ShellCommand" date="Thu May 27 20:06:16 EDT 2021" starttimestamp="1622160131505" timestamp="245459" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="29" _type="PauseCommand" date="Thu May 27 20:06:23 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="251907">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4814]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="28" _type="EclipseCommand" commandID="" date="Thu May 27 20:06:23 EDT 2021" starttimestamp="1622160131505" timestamp="251907" />
+  <Command __id="30" _type="EclipseCommand" commandID="" date="Thu May 27 20:06:23 EDT 2021" starttimestamp="1622160131505" timestamp="252010" />
+  <Command __id="32" _type="PauseCommand" date="Thu May 27 20:06:33 EDT 2021" range="5s-10s" starttimestamp="1622160131505" timestamp="261763">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[9753]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="33" _type="MoveCaretCommand" caretOffset="0" date="Thu May 27 20:06:33 EDT 2021" docOffset="0" starttimestamp="1622160131505" timestamp="261960" />
+  <Command __id="35" _type="PauseCommand" date="Thu May 27 20:07:02 EDT 2021" range="20s-30s" starttimestamp="1622160131505" timestamp="291319">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[29359]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="34" _type="MoveCaretCommand" caretOffset="110" date="Thu May 27 20:07:02 EDT 2021" docOffset="229" starttimestamp="1622160131505" timestamp="291319" />
+  <Command __id="37" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:03 EDT 2021" starttimestamp="1622160131505" timestamp="292079" />
+  <Command __id="39" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292521" />
+  <Command __id="41" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292596" />
+  <Command __id="43" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292680" />
+  <Command __id="45" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292764" />
+  <Command __id="47" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292847" />
+  <Command __id="49" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="292931" />
+  <Command __id="51" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293016" />
+  <Command __id="53" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293099" />
+  <Command __id="55" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293183" />
+  <Command __id="57" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293266" />
+  <Command __id="59" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293357" />
+  <Command __id="61" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:04 EDT 2021" starttimestamp="1622160131505" timestamp="293441" />
+  <Command __id="63" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293524" />
+  <Command __id="65" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293609" />
+  <Command __id="67" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293693" />
+  <Command __id="69" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293776" />
+  <Command __id="71" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293858" />
+  <Command __id="73" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="293946" />
+  <Command __id="75" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294022" />
+  <Command __id="77" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294112" />
+  <Command __id="79" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294197" />
+  <Command __id="81" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294280" />
+  <Command __id="83" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294361" />
+  <Command __id="85" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:05 EDT 2021" starttimestamp="1622160131505" timestamp="294449" />
+  <Command __id="87" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294533" />
+  <Command __id="89" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294617" />
+  <Command __id="91" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294701" />
+  <Command __id="93" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294784" />
+  <Command __id="95" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294868" />
+  <Command __id="97" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="294945" />
+  <Command __id="99" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295035" />
+  <Command __id="101" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295112" />
+  <Command __id="103" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295203" />
+  <Command __id="105" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295287" />
+  <Command __id="107" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295368" />
+  <Command __id="109" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:06 EDT 2021" starttimestamp="1622160131505" timestamp="295453" />
+  <Command __id="111" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295534" />
+  <Command __id="113" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295620" />
+  <Command __id="115" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295704" />
+  <Command __id="117" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295788" />
+  <Command __id="119" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295872" />
+  <Command __id="121" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="295955" />
+  <Command __id="123" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="296040" />
+  <Command __id="125" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="296134" />
+  <Command __id="127" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="296200" />
+  <Command __id="129" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="296317" />
+  <Command __id="131" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:07 EDT 2021" starttimestamp="1622160131505" timestamp="296479" />
+  <Command __id="133" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:08 EDT 2021" starttimestamp="1622160131505" timestamp="296629" />
+  <Command __id="135" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:08 EDT 2021" starttimestamp="1622160131505" timestamp="296810" />
+  <Command __id="137" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:08 EDT 2021" starttimestamp="1622160131505" timestamp="297023" />
+  <Command __id="139" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:08 EDT 2021" starttimestamp="1622160131505" timestamp="297294" />
+  <Command __id="141" _type="InsertStringCommand" date="Thu May 27 20:07:09 EDT 2021" starttimestamp="1622160131505" timestamp="297961" timestamp2="297961">
+    <data><![CDATA[S]]></data>
+  </Command>
+  <Command __id="143" _type="InsertStringCommand" date="Thu May 27 20:07:09 EDT 2021" starttimestamp="1622160131505" timestamp="298143" timestamp2="298143">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="145" _type="InsertStringCommand" date="Thu May 27 20:07:09 EDT 2021" starttimestamp="1622160131505" timestamp="298333" timestamp2="298333">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="147" _type="InsertStringCommand" date="Thu May 27 20:07:10 EDT 2021" starttimestamp="1622160131505" timestamp="298662" timestamp2="298662">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="149" _type="InsertStringCommand" date="Thu May 27 20:07:10 EDT 2021" starttimestamp="1622160131505" timestamp="298798" timestamp2="298798">
+    <data><![CDATA[c]]></data>
+  </Command>
+  <Command __id="151" _type="InsertStringCommand" date="Thu May 27 20:07:10 EDT 2021" starttimestamp="1622160131505" timestamp="298929" timestamp2="298929">
+    <data><![CDATA[t]]></data>
+  </Command>
+  <Command __id="153" _type="InsertStringCommand" date="Thu May 27 20:07:10 EDT 2021" starttimestamp="1622160131505" timestamp="299148" timestamp2="299148">
+    <data><![CDATA[u]]></data>
+  </Command>
+  <Command __id="155" _type="InsertStringCommand" date="Thu May 27 20:07:10 EDT 2021" starttimestamp="1622160131505" timestamp="299449" timestamp2="299449">
+    <data><![CDATA[r]]></data>
+  </Command>
+  <Command __id="157" _type="InsertStringCommand" date="Thu May 27 20:07:11 EDT 2021" starttimestamp="1622160131505" timestamp="299794" timestamp2="299794">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="159" _type="InsertStringCommand" date="Thu May 27 20:07:11 EDT 2021" starttimestamp="1622160131505" timestamp="300337" timestamp2="300337">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="161" _type="PauseCommand" date="Thu May 27 20:07:13 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="302293">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1956]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <Command __id="162" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:13 EDT 2021" starttimestamp="1622160131505" timestamp="302297" />
+  <Command __id="164" _type="InsertStringCommand" date="Thu May 27 20:07:14 EDT 2021" starttimestamp="1622160131505" timestamp="302650" timestamp2="302650">
+    <data><![CDATA[N]]></data>
+  </Command>
+  <Command __id="166" _type="InsertStringCommand" date="Thu May 27 20:07:14 EDT 2021" starttimestamp="1622160131505" timestamp="302812" timestamp2="302812">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="168" _type="InsertStringCommand" date="Thu May 27 20:07:14 EDT 2021" starttimestamp="1622160131505" timestamp="302979" timestamp2="302979">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="170" _type="InsertStringCommand" date="Thu May 27 20:07:14 EDT 2021" starttimestamp="1622160131505" timestamp="303400" timestamp2="303400">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="172" _type="PauseCommand" date="Thu May 27 20:07:18 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="306648">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[3248]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="173" _type="MoveCaretCommand" caretOffset="1094" date="Thu May 27 20:07:18 EDT 2021" docOffset="1200" starttimestamp="1622160131505" timestamp="306774" />
+  <Command __id="175" _type="PauseCommand" date="Thu May 27 20:07:40 EDT 2021" range="20s-30s" starttimestamp="1622160131505" timestamp="329091">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[22317]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="176" _type="MoveCaretCommand" caretOffset="71" date="Thu May 27 20:07:40 EDT 2021" docOffset="190" starttimestamp="1622160131505" timestamp="329168" />
+  <Command __id="178" _type="PauseCommand" date="Thu May 27 20:07:46 EDT 2021" range="5s-10s" starttimestamp="1622160131505" timestamp="334961">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5793]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <Command __id="179" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:46 EDT 2021" starttimestamp="1622160131505" timestamp="334964" />
+  <Command __id="181" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:46 EDT 2021" starttimestamp="1622160131505" timestamp="335460" />
+  <Command __id="183" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335544" />
+  <Command __id="185" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335628" />
+  <Command __id="187" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335710" />
+  <Command __id="189" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335795" />
+  <Command __id="191" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335876" />
+  <Command __id="193" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="335961" />
+  <Command __id="195" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="336044" />
+  <Command __id="197" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="336260" />
+  <Command __id="199" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:47 EDT 2021" starttimestamp="1622160131505" timestamp="336438" />
+  <Command __id="201" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:48 EDT 2021" starttimestamp="1622160131505" timestamp="336606" />
+  <Command __id="203" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:48 EDT 2021" starttimestamp="1622160131505" timestamp="336782" />
+  <Command __id="205" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:48 EDT 2021" starttimestamp="1622160131505" timestamp="336973" />
+  <Command __id="207" _type="PauseCommand" date="Thu May 27 20:07:50 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="338980">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2006]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="206" _type="MoveCaretCommand" caretOffset="92" date="Thu May 27 20:07:50 EDT 2021" docOffset="211" starttimestamp="1622160131505" timestamp="338979" />
+  <Command __id="209" _type="PauseCommand" date="Thu May 27 20:07:52 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="340520">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1541]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="208" _type="MoveCaretCommand" caretOffset="57" date="Thu May 27 20:07:52 EDT 2021" docOffset="176" starttimestamp="1622160131505" timestamp="340520" />
+  <Command __id="211" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:07:52 EDT 2021" starttimestamp="1622160131505" timestamp="341018" />
+  <Command __id="213" _type="PauseCommand" date="Thu May 27 20:07:54 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="342934">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1916]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="214" _type="InsertStringCommand" date="Thu May 27 20:07:54 EDT 2021" starttimestamp="1622160131505" timestamp="342940" timestamp2="342940">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="216" _type="PauseCommand" date="Thu May 27 20:08:07 EDT 2021" range="10s-20s" starttimestamp="1622160131505" timestamp="356265">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[13325]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="217" _type="MoveCaretCommand" caretOffset="1094" date="Thu May 27 20:08:07 EDT 2021" docOffset="1200" starttimestamp="1622160131505" timestamp="356346" />
+  <Command __id="219" _type="PauseCommand" date="Thu May 27 20:08:13 EDT 2021" range="5s-10s" starttimestamp="1622160131505" timestamp="362399">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6053]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="218" _type="MoveCaretCommand" caretOffset="159" date="Thu May 27 20:08:13 EDT 2021" docOffset="265" starttimestamp="1622160131505" timestamp="362399" />
+  <Command __id="221" _type="PauseCommand" date="Thu May 27 20:08:16 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="365136">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2737]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="222" _type="MoveCaretCommand" caretOffset="177" date="Thu May 27 20:08:16 EDT 2021" docOffset="177" starttimestamp="1622160131505" timestamp="365217" />
+  <Command __id="223" _type="MoveCaretCommand" caretOffset="210" date="Thu May 27 20:08:17 EDT 2021" docOffset="210" starttimestamp="1622160131505" timestamp="366178" />
+  <Command __id="225" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:18 EDT 2021" starttimestamp="1622160131505" timestamp="366684" />
+  <Command __id="227" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:18 EDT 2021" starttimestamp="1622160131505" timestamp="367180" />
+  <Command __id="229" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:18 EDT 2021" starttimestamp="1622160131505" timestamp="367263" />
+  <Command __id="231" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:18 EDT 2021" starttimestamp="1622160131505" timestamp="367341" />
+  <Command __id="233" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:18 EDT 2021" starttimestamp="1622160131505" timestamp="367430" />
+  <Command __id="235" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367515" />
+  <Command __id="237" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367598" />
+  <Command __id="239" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367681" />
+  <Command __id="241" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367765" />
+  <Command __id="243" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367850" />
+  <Command __id="245" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="367934" />
+  <Command __id="247" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368017" />
+  <Command __id="249" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368101" />
+  <Command __id="251" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368185" />
+  <Command __id="253" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368269" />
+  <Command __id="255" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368353" />
+  <Command __id="257" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:19 EDT 2021" starttimestamp="1622160131505" timestamp="368436" />
+  <Command __id="259" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368522" />
+  <Command __id="261" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368604" />
+  <Command __id="263" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368687" />
+  <Command __id="265" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368772" />
+  <Command __id="267" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368856" />
+  <Command __id="269" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="368934" />
+  <Command __id="271" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="369027" />
+  <Command __id="273" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="369108" />
+  <Command __id="275" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="369192" />
+  <Command __id="277" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="369275" />
+  <Command __id="279" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:20 EDT 2021" starttimestamp="1622160131505" timestamp="369358" />
+  <Command __id="281" _type="PauseCommand" date="Thu May 27 20:08:22 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="370868">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1510]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="282" _type="InsertStringCommand" date="Thu May 27 20:08:22 EDT 2021" starttimestamp="1622160131505" timestamp="370902" timestamp2="370902">
+    <data><![CDATA[(]]></data>
+  </Command>
+  <Command __id="284" _type="InsertStringCommand" date="Thu May 27 20:08:22 EDT 2021" starttimestamp="1622160131505" timestamp="371340" timestamp2="371340">
+    <data><![CDATA[C]]></data>
+  </Command>
+  <Command __id="286" _type="InsertStringCommand" date="Thu May 27 20:08:22 EDT 2021" starttimestamp="1622160131505" timestamp="371459" timestamp2="371459">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="288" _type="InsertStringCommand" date="Thu May 27 20:08:23 EDT 2021" starttimestamp="1622160131505" timestamp="371599" timestamp2="371599">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="290" _type="InsertStringCommand" date="Thu May 27 20:08:23 EDT 2021" starttimestamp="1622160131505" timestamp="371778" timestamp2="371778">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="292" _type="InsertStringCommand" date="Thu May 27 20:08:24 EDT 2021" starttimestamp="1622160131505" timestamp="372750" timestamp2="372750">
+    <data><![CDATA[3]]></data>
+  </Command>
+  <Command __id="294" _type="InsertStringCommand" date="Thu May 27 20:08:24 EDT 2021" starttimestamp="1622160131505" timestamp="372947" timestamp2="372947">
+    <data><![CDATA[0]]></data>
+  </Command>
+  <Command __id="296" _type="InsertStringCommand" date="Thu May 27 20:08:24 EDT 2021" starttimestamp="1622160131505" timestamp="373157" timestamp2="373157">
+    <data><![CDATA[1]]></data>
+  </Command>
+  <Command __id="298" _type="InsertStringCommand" date="Thu May 27 20:08:25 EDT 2021" starttimestamp="1622160131505" timestamp="373861" timestamp2="373861">
+    <data><![CDATA[T]]></data>
+  </Command>
+  <Command __id="300" _type="InsertStringCommand" date="Thu May 27 20:08:25 EDT 2021" starttimestamp="1622160131505" timestamp="374050" timestamp2="374050">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="302" _type="InsertStringCommand" date="Thu May 27 20:08:25 EDT 2021" starttimestamp="1622160131505" timestamp="374151" timestamp2="374151">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="304" _type="InsertStringCommand" date="Thu May 27 20:08:25 EDT 2021" starttimestamp="1622160131505" timestamp="374357" timestamp2="374357">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="306" _type="InsertStringCommand" date="Thu May 27 20:08:26 EDT 2021" starttimestamp="1622160131505" timestamp="374797" timestamp2="374797">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="307" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu May 27 20:08:26 EDT 2021" start_end="START" starttimestamp="1622160131505" timestamp="374841" />
+  <Command __id="309" _type="PauseCommand" date="Thu May 27 20:08:30 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="378592">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[AssistCommand]]></prev>
+    <pause><![CDATA[3751]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="308" _type="ShellCommand" date="Thu May 27 20:08:30 EDT 2021" starttimestamp="1622160131505" timestamp="378592" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="311" _type="PauseCommand" date="Thu May 27 20:08:31 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="380397">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1805]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="310" _type="ShellCommand" date="Thu May 27 20:08:31 EDT 2021" starttimestamp="1622160131505" timestamp="380397" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="312" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu May 27 20:08:31 EDT 2021" start_end="END" starttimestamp="1622160131505" timestamp="380406" />
+  <Command __id="315" _type="PauseCommand" date="Thu May 27 20:08:34 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="382574">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[Insert]]></prev>
+    <pause><![CDATA[2165]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="314" _type="MoveCaretCommand" caretOffset="209" date="Thu May 27 20:08:34 EDT 2021" docOffset="209" starttimestamp="1622160131505" timestamp="382574" />
+  <Command __id="317" _type="PauseCommand" date="Thu May 27 20:08:35 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="383966">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1392]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="318" _type="MoveCaretCommand" caretOffset="0" date="Thu May 27 20:08:35 EDT 2021" docOffset="0" starttimestamp="1622160131505" timestamp="384040" />
+  <Command __id="320" _type="PauseCommand" date="Thu May 27 20:08:38 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="386946">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2905]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="319" _type="MoveCaretCommand" caretOffset="145" date="Thu May 27 20:08:38 EDT 2021" docOffset="332" starttimestamp="1622160131505" timestamp="386945" />
+  <Command __id="322" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:38 EDT 2021" starttimestamp="1622160131505" timestamp="387421" />
+  <Command __id="324" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:39 EDT 2021" starttimestamp="1622160131505" timestamp="387908" />
+  <Command __id="326" _type="PauseCommand" date="Thu May 27 20:08:40 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="389104">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1196]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="327" _type="InsertStringCommand" date="Thu May 27 20:08:40 EDT 2021" starttimestamp="1622160131505" timestamp="389108" timestamp2="389108">
+    <data><![CDATA[e]]></data>
+  </Command>
+  <Command __id="329" _type="InsertStringCommand" date="Thu May 27 20:08:41 EDT 2021" starttimestamp="1622160131505" timestamp="389654" timestamp2="389654">
+    <data><![CDATA[)]]></data>
+  </Command>
+  <Command __id="331" _type="PauseCommand" date="Thu May 27 20:08:42 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="390800">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1146]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <Command __id="332" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:42 EDT 2021" starttimestamp="1622160131505" timestamp="390804" />
+  <Command __id="334" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:42 EDT 2021" starttimestamp="1622160131505" timestamp="391020" />
+  <Command __id="336" _type="InsertStringCommand" date="Thu May 27 20:08:43 EDT 2021" starttimestamp="1622160131505" timestamp="391527" timestamp2="391527">
+    <data><![CDATA[E]]></data>
+  </Command>
+  <Command __id="338" _type="InsertStringCommand" date="Thu May 27 20:08:43 EDT 2021" starttimestamp="1622160131505" timestamp="391986" timestamp2="391986">
+    <data><![CDATA[)]]></data>
+  </Command>
+  <Command __id="340" _type="PauseCommand" date="Thu May 27 20:08:46 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="394844">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[2858]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="341" _type="MoveCaretCommand" caretOffset="159" date="Thu May 27 20:08:46 EDT 2021" docOffset="265" starttimestamp="1622160131505" timestamp="394920" />
+  <Command __id="0" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:02:11 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1125" docExpressionCount="130" docLength="1125" projectName="grail" starttimestamp="1622160131505" timestamp="116">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/compositeFigs/ArmsandLegs.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package grail.compositeFigs;
+
+
+import grail.geometryFigs.MovingL;
+import grail.geometryFigs.RotatingLine;
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@StructurePattern(StructurePatternNames.LINE_PATTERN)
+@Tags(Comp301Tags.ANGLE)
+
+public class ArmsandLegs implements VShapes {
+	
+	
+	MovingL LeftLine = new RotatingLine();
+	MovingL RightLine = new RotatingLine();
+	
+	public ArmsandLegs() {
+		LeftLine = new RotatingLine();
+		RightLine = new RotatingLine();
+	}
+	public ArmsandLegs(double rad, double ang,double radR, double angR, int valX, int valY) {
+		LeftLine = new RotatingLine(rad, ang, valX, valY);
+		RightLine = new RotatingLine(radR, angR, valX, valY);
+	}
+
+	@Override
+	public MovingL getLeftLine() {
+		return LeftLine;
+	}
+	@Override
+	public MovingL getRightLine() {
+		return RightLine;
+	}
+	@Override
+	public void move(int newX, int newY) {
+		LeftLine.setX(LeftLine.getX() + newX);
+		LeftLine.setY(LeftLine.getY() + newY);
+		RightLine.setX(RightLine.getX() + newX);
+		RightLine.setY(RightLine.getY() + newY);
+
+	}
+	
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="2" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:02:19 EDT 2021" docASTNodeCount="90" docActiveCodeLength="707" docExpressionCount="61" docLength="1099" projectName="grail" starttimestamp="1622160131505" timestamp="7946">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/main/RunSummer21A1Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package main;
+
+
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp301ss21.assignment1.SS21Assignment1Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+
+public class RunSummer21A1Tests {
+	static final int
+			MAX_PRINT = 600,
+			MAX_TRACE = 2000,
+			TIME_OUT = 5;
+	public static void main(String[] args) {
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		GraderBasicsTraceUtility.setBufferTracedMessages(true);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		GraderBasicsTraceUtility.setMaxPrintedTraces(MAX_PRINT);
+		// Change this number if all traces together are longer than 2000
+		GraderBasicsTraceUtility.setMaxTraces(MAX_TRACE);
+		// Change this number if your process times out prematurely
+		BasicProjectExecution.setProcessTimeOut(TIME_OUT);
+		// You need to always call such a method
+		SS21Assignment1Suite.main(args);
+		}
+	}
+]]></snapshot>
+  </Command>
+  <Command __id="26" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:06:18 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1125" docExpressionCount="130" docLength="1125" projectName="grail" starttimestamp="1622160131505" timestamp="246914">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/compositeFigs/ArmsandLegs.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.compositeFigs;¶¶¶import grail.geometryFigs.MovingL;¶import grail.geometryFigs.RotatingLine;¶import tags301.Comp301Tags;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶¶@StructurePattern(StructurePatternNames.LINE_PATTERN)¶@Tags(Comp301Tags.ANGLE)¶¶public class ArmsandLegs implements VShapes {¶	¶	¶	MovingL LeftLine = new RotatingLine();¶	MovingL RightLine = new RotatingLine();¶	¶	public ArmsandLegs() {¶		LeftLine = new RotatingLine();¶		RightLine = new RotatingLine();¶	}¶	public ArmsandLegs(double rad, double ang,double radR, double angR, int valX, int valY) {¶		LeftLine = new RotatingLine(rad, ang, valX, valY);¶		RightLine = new RotatingLine(radR, angR, valX, valY);¶	}¶¶	@Override¶	public MovingL getLeftLine() {¶		return LeftLine;¶	}¶	@Override¶	public MovingL getRightLine() {¶		return RightLine;¶	}¶	@Override¶	public void move(int newX, int newY) {¶		LeftLine.setX(LeftLine.getX() + newX);¶		LeftLine.setY(LeftLine.getY() + newY);¶		RightLine.setX(RightLine.getX() + newX);¶		RightLine.setY(RightLine.getY() + newY);¶¶	}¶	¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="31" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:06:33 EDT 2021" docASTNodeCount="109" docActiveCodeLength="649" docExpressionCount="51" docLength="700" projectName="grail" starttimestamp="1622160131505" timestamp="261763">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/MovingL.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package grail.geometryFigs;
+
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+@StructurePattern(StructurePatternNames.LINE_PATTERN)
+@Tags(Comp301Tags.ROTATING_LINE) 
+
+public interface MovingL {
+	
+	public int getX();
+	public int getY();
+	public int getHeight();
+	public int getWidth();
+	public void setX(int newX);
+	public void setY(int newY);
+	//public void setHeight();
+	//public void setWidth();
+	public double getRadius();
+	public double getAngle();
+	public void setRadius(double newR);
+	public void setAngle(double newAng);
+	public void rotate(int units);
+	public void move(int newX, int newY);
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="36" _type="Delete" date="Thu May 27 20:07:03 EDT 2021" docASTNodeCount="104" docActiveCodeLength="597" docExpressionCount="46" docLength="648" endLine="6" length="52" offset="177" repeat="52" startLine="6" starttimestamp="1622160131505" timestamp="292063" timestamp2="297291">
+    <text><![CDATA[StructurePattern(StructurePatternNames.LINE_PATTERN)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="140" _type="Insert" date="Thu May 27 20:07:09 EDT 2021" docASTNodeCount="106" docActiveCodeLength="607" docExpressionCount="48" docLength="658" length="10" offset="177" repeat="10" starttimestamp="1622160131505" timestamp="297957" timestamp2="300334">
+    <text><![CDATA[Structures]]></text>
+  </DocumentChange>
+  <DocumentChange __id="160" _type="Delete" date="Thu May 27 20:07:13 EDT 2021" docASTNodeCount="106" docActiveCodeLength="606" docExpressionCount="48" docLength="657" endLine="6" length="1" offset="186" startLine="6" starttimestamp="1622160131505" timestamp="302293">
+    <text><![CDATA[s]]></text>
+  </DocumentChange>
+  <DocumentChange __id="163" _type="Insert" date="Thu May 27 20:07:14 EDT 2021" docASTNodeCount="106" docActiveCodeLength="610" docExpressionCount="48" docLength="661" length="4" offset="186" repeat="4" starttimestamp="1622160131505" timestamp="302646" timestamp2="303396">
+    <text><![CDATA[Name]]></text>
+  </DocumentChange>
+  <Command __id="171" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:07:18 EDT 2021" docASTNodeCount="311" docActiveCodeLength="1621" docExpressionCount="172" docLength="1621" projectName="grail" starttimestamp="1622160131505" timestamp="306648">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/RotatingLine.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package grail.geometryFigs;
+
+import util.annotations.StructurePattern;
+
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+import tags301.Comp301Tags;
+
+
+@StructurePattern(StructurePatternNames.LINE_PATTERN)
+@Tags(Comp301Tags.ROTATING_LINE) 
+
+public class RotatingLine implements MovingL {
+	
+	private int x;
+	private int y;		
+	private Point lowerRC;
+	private double radius, angle;
+	
+	
+	
+	public RotatingLine() {
+		lowerRC = new PolarPoint(radius, angle);
+	}
+	public RotatingLine(int initx, int inity) {
+		x = initx;
+		y = inity;
+	}
+	public RotatingLine(double initRad, double initAng, int initx, int inity) {
+		x = initx;
+		y = inity;
+		radius = initRad;
+		angle = initAng;
+		lowerRC = new PolarPoint(radius, angle);
+	}
+	@Override
+	public int getX(){
+		return x;
+	}
+	@Override
+	public void setX(int newX) {
+		x = newX;
+	}
+	@Override
+	public int getY() {
+		return y;
+	}
+	@Override
+	public void setY(int newY) {
+		y = newY;
+	}
+	@Override
+	public int getHeight() {
+		return lowerRC.getY();
+	}
+	@Override
+	public int getWidth() {
+		return lowerRC.getX();
+	}
+	@Override
+	public double getRadius() {
+		return lowerRC.getRadius();
+	}
+	@Override
+	public void setRadius(double newR) {
+		lowerRC.setRadius(newR);;
+	}
+	@Override
+	public double getAngle() {
+		return lowerRC.getAngle();
+	}
+	@Override
+	public void setAngle(double newAng) {
+		lowerRC.setAngle(newAng);
+	}
+	@Override
+	public void rotate(int units) {
+		double radianUn = units*(Math.PI/32);
+		double newAngle = radianUn + angle;
+		this.setAngle(newAngle);
+	}
+	@Override
+	public void move(int newX, int newY) {
+		x = newX;
+		y = newY;
+	}
+	
+	
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="174" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:07:40 EDT 2021" docASTNodeCount="106" docActiveCodeLength="610" docExpressionCount="48" docLength="661" projectName="grail" starttimestamp="1622160131505" timestamp="329091">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/MovingL.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.geometryFigs;¶¶import tags301.Comp301Tags;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶@Structure"), Diff(DELETE,"Pattern(StructurePatternNames.LINE_PATTERN)"), Diff(INSERT,"Name"), Diff(EQUAL,"¶@Tags(Comp301Tags.ROTATING_LINE) ¶¶public interface MovingL {¶	¶	public int getX();¶	public int getY();¶	public int getHeight();¶	public int getWidth();¶	public void setX(int newX);¶	public void setY(int newY);¶	//public void setHeight();¶	//public void setWidth();¶	public double getRadius();¶	public double getAngle();¶	public void setRadius(double newR);¶	public void setAngle(double newAng);¶	public void rotate(int units);¶	public void move(int newX, int newY);¶¶}¶")]]]></diff>
+    <snapshot><![CDATA[package grail.geometryFigs;
+
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+@StructureName
+@Tags(Comp301Tags.ROTATING_LINE) 
+
+public interface MovingL {
+	
+	public int getX();
+	public int getY();
+	public int getHeight();
+	public int getWidth();
+	public void setX(int newX);
+	public void setY(int newY);
+	//public void setHeight();
+	//public void setWidth();
+	public double getRadius();
+	public double getAngle();
+	public void setRadius(double newR);
+	public void setAngle(double newAng);
+	public void rotate(int units);
+	public void move(int newX, int newY);
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="177" _type="Delete" date="Thu May 27 20:07:46 EDT 2021" docASTNodeCount="104" docActiveCodeLength="596" docExpressionCount="46" docLength="647" endLine="6" length="14" offset="176" repeat="14" startLine="6" starttimestamp="1622160131505" timestamp="334961" timestamp2="336972">
+    <text><![CDATA[@StructureName]]></text>
+  </DocumentChange>
+  <DocumentChange __id="210" _type="Delete" date="Thu May 27 20:07:52 EDT 2021" docASTNodeCount="104" docActiveCodeLength="595" docExpressionCount="46" docLength="646" endLine="7" length="1" offset="176" startLine="6" starttimestamp="1622160131505" timestamp="341013">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <DocumentChange __id="212" _type="Insert" date="Thu May 27 20:07:54 EDT 2021" docASTNodeCount="104" docActiveCodeLength="596" docExpressionCount="46" docLength="647" length="1" offset="176" starttimestamp="1622160131505" timestamp="342934">
+    <text><![CDATA[
+]]></text>
+  </DocumentChange>
+  <Command __id="215" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:08:07 EDT 2021" docASTNodeCount="311" docActiveCodeLength="1621" docExpressionCount="172" docLength="1621" projectName="grail" starttimestamp="1622160131505" timestamp="356265">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/RotatingLine.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.geometryFigs;¶¶import util.annotations.StructurePattern;¶¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶import tags301.Comp301Tags;¶¶¶@StructurePattern(StructurePatternNames.LINE_PATTERN)¶@Tags(Comp301Tags.ROTATING_LINE) ¶¶public class RotatingLine implements MovingL {¶	¶	private int x;¶	private int y;		¶	private Point lowerRC;¶	private double radius, angle;¶	¶	¶	¶	public RotatingLine() {¶		lowerRC = new PolarPoint(radius, angle);¶	}¶	public RotatingLine(int initx, int inity) {¶		x = initx;¶		y = inity;¶	}¶	public RotatingLine(double initRad, double initAng, int initx, int inity) {¶		x = initx;¶		y = inity;¶		radius = initRad;¶		angle = initAng;¶		lowerRC = new PolarPoint(radius, angle);¶	}¶	@Override¶	public int getX(){¶		return x;¶	}¶	@Override¶	public void setX(int newX) {¶		x = newX;¶	}¶	@Override¶	public int getY() {¶		return y;¶	}¶	@Override¶	public void setY(int newY) {¶		y = newY;¶	}¶	@Override¶	public int getHeight() {¶		return lowerRC.getY();¶	}¶	@Override¶	public int getWidth() {¶		return lowerRC.getX();¶	}¶	@Override¶	public double getRadius() {¶		return lowerRC.getRadius();¶	}¶	@Override¶	public void setRadius(double newR) {¶		lowerRC.setRadius(newR);;¶	}¶	@Override¶	public double getAngle() {¶		return lowerRC.getAngle();¶	}¶	@Override¶	public void setAngle(double newAng) {¶		lowerRC.setAngle(newAng);¶	}¶	@Override¶	public void rotate(int units) {¶		double radianUn = units*(Math.PI/32);¶		double newAngle = radianUn + angle;¶		this.setAngle(newAngle);¶	}¶	@Override¶	public void move(int newX, int newY) {¶		x = newX;¶		y = newY;¶	}¶	¶	¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="220" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:08:16 EDT 2021" docASTNodeCount="104" docActiveCodeLength="596" docExpressionCount="46" docLength="647" projectName="grail" starttimestamp="1622160131505" timestamp="365136">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/MovingL.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.geometryFigs;¶¶import tags301.Comp301Tags;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶"), Diff(DELETE,"@StructureName"), Diff(EQUAL,"¶@Tags(Comp301Tags.ROTATING_LINE) ¶¶public interface MovingL {¶	¶	public int getX();¶	public int getY();¶	public int getHeight();¶	public int getWidth();¶	public void setX(int newX);¶	public void setY(int newY);¶	//public void setHeight();¶	//public void setWidth();¶	public double getRadius();¶	public double getAngle();¶	public void setRadius(double newR);¶	public void setAngle(double newAng);¶	public void rotate(int units);¶	public void move(int newX, int newY);¶¶}¶")]]]></diff>
+    <snapshot><![CDATA[package grail.geometryFigs;
+
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags(Comp301Tags.ROTATING_LINE) 
+
+public interface MovingL {
+	
+	public int getX();
+	public int getY();
+	public int getHeight();
+	public int getWidth();
+	public void setX(int newX);
+	public void setY(int newY);
+	//public void setHeight();
+	//public void setWidth();
+	public double getRadius();
+	public double getAngle();
+	public void setRadius(double newR);
+	public void setAngle(double newAng);
+	public void rotate(int units);
+	public void move(int newX, int newY);
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="224" _type="Delete" date="Thu May 27 20:08:18 EDT 2021" docASTNodeCount="101" docActiveCodeLength="568" docExpressionCount="43" docLength="619" endLine="7" length="28" offset="182" repeat="28" startLine="7" starttimestamp="1622160131505" timestamp="366679" timestamp2="369356">
+    <text><![CDATA[(Comp301Tags.ROTATING_LINE) ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="280" _type="Insert" date="Thu May 27 20:08:22 EDT 2021" docASTNodeCount="101" docActiveCodeLength="582" docExpressionCount="43" docLength="633" length="14" offset="182" repeat="13" starttimestamp="1622160131505" timestamp="370868" timestamp2="374797">
+    <text><![CDATA[(Comp301Tags.)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="313" _type="Insert" date="Thu May 27 20:08:31 EDT 2021" docASTNodeCount="104" docActiveCodeLength="595" docExpressionCount="46" docLength="646" length="13" offset="195" starttimestamp="1622160131505" timestamp="380409">
+    <text><![CDATA[ROTATING_LINE]]></text>
+  </DocumentChange>
+  <Command __id="316" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:08:35 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1125" docExpressionCount="130" docLength="1125" projectName="grail" starttimestamp="1622160131505" timestamp="383966">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/compositeFigs/ArmsandLegs.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.compositeFigs;¶¶¶import grail.geometryFigs.MovingL;¶import grail.geometryFigs.RotatingLine;¶import tags301.Comp301Tags;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶¶@StructurePattern(StructurePatternNames.LINE_PATTERN)¶@Tags(Comp301Tags.ANGLE)¶¶public class ArmsandLegs implements VShapes {¶	¶	¶	MovingL LeftLine = new RotatingLine();¶	MovingL RightLine = new RotatingLine();¶	¶	public ArmsandLegs() {¶		LeftLine = new RotatingLine();¶		RightLine = new RotatingLine();¶	}¶	public ArmsandLegs(double rad, double ang,double radR, double angR, int valX, int valY) {¶		LeftLine = new RotatingLine(rad, ang, valX, valY);¶		RightLine = new RotatingLine(radR, angR, valX, valY);¶	}¶¶	@Override¶	public MovingL getLeftLine() {¶		return LeftLine;¶	}¶	@Override¶	public MovingL getRightLine() {¶		return RightLine;¶	}¶	@Override¶	public void move(int newX, int newY) {¶		LeftLine.setX(LeftLine.getX() + newX);¶		LeftLine.setY(LeftLine.getY() + newY);¶		RightLine.setX(RightLine.getX() + newX);¶		RightLine.setY(RightLine.getY() + newY);¶¶	}¶	¶¶}¶")]]]></diff>
+  </Command>
+  <DocumentChange __id="321" _type="Delete" date="Thu May 27 20:08:38 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1123" docExpressionCount="130" docLength="1123" endLine="11" length="2" offset="330" repeat="2" startLine="11" starttimestamp="1622160131505" timestamp="387415" timestamp2="387906">
+    <text><![CDATA[E)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="325" _type="Insert" date="Thu May 27 20:08:40 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1125" docExpressionCount="130" docLength="1125" length="2" offset="330" repeat="2" starttimestamp="1622160131505" timestamp="389104" timestamp2="389650">
+    <text><![CDATA[e)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="330" _type="Delete" date="Thu May 27 20:08:42 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1123" docExpressionCount="130" docLength="1123" endLine="11" length="2" offset="330" repeat="2" startLine="11" starttimestamp="1622160131505" timestamp="390800" timestamp2="391018">
+    <text><![CDATA[e)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="335" _type="Insert" date="Thu May 27 20:08:43 EDT 2021" docASTNodeCount="197" docActiveCodeLength="1125" docExpressionCount="130" docLength="1125" length="2" offset="330" repeat="2" starttimestamp="1622160131505" timestamp="391524" timestamp2="391983">
+    <text><![CDATA[E)]]></text>
+  </DocumentChange>
+  <Command __id="339" _type="DiffBasedFileOpenCommand" date="Thu May 27 20:08:46 EDT 2021" docASTNodeCount="311" docActiveCodeLength="1621" docExpressionCount="172" docLength="1621" projectName="grail" starttimestamp="1622160131505" timestamp="394844">
+    <filePath><![CDATA[/Users/gabomm99/eclipse-workspace/grail/src/grail/geometryFigs/RotatingLine.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package grail.geometryFigs;¶¶import util.annotations.StructurePattern;¶¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶import tags301.Comp301Tags;¶¶¶@StructurePattern(StructurePatternNames.LINE_PATTERN)¶@Tags(Comp301Tags.ROTATING_LINE) ¶¶public class RotatingLine implements MovingL {¶	¶	private int x;¶	private int y;		¶	private Point lowerRC;¶	private double radius, angle;¶	¶	¶	¶	public RotatingLine() {¶		lowerRC = new PolarPoint(radius, angle);¶	}¶	public RotatingLine(int initx, int inity) {¶		x = initx;¶		y = inity;¶	}¶	public RotatingLine(double initRad, double initAng, int initx, int inity) {¶		x = initx;¶		y = inity;¶		radius = initRad;¶		angle = initAng;¶		lowerRC = new PolarPoint(radius, angle);¶	}¶	@Override¶	public int getX(){¶		return x;¶	}¶	@Override¶	public void setX(int newX) {¶		x = newX;¶	}¶	@Override¶	public int getY() {¶		return y;¶	}¶	@Override¶	public void setY(int newY) {¶		y = newY;¶	}¶	@Override¶	public int getHeight() {¶		return lowerRC.getY();¶	}¶	@Override¶	public int getWidth() {¶		return lowerRC.getX();¶	}¶	@Override¶	public double getRadius() {¶		return lowerRC.getRadius();¶	}¶	@Override¶	public void setRadius(double newR) {¶		lowerRC.setRadius(newR);;¶	}¶	@Override¶	public double getAngle() {¶		return lowerRC.getAngle();¶	}¶	@Override¶	public void setAngle(double newAng) {¶		lowerRC.setAngle(newAng);¶	}¶	@Override¶	public void rotate(int units) {¶		double radianUn = units*(Math.PI/32);¶		double newAngle = radianUn + angle;¶		this.setAngle(newAngle);¶	}¶	@Override¶	public void move(int newX, int newY) {¶		x = newX;¶		y = newY;¶	}¶	¶	¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="343" _type="PauseCommand" date="Thu May 27 20:08:48 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="396696">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1776]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <Command __id="344" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:48 EDT 2021" starttimestamp="1622160131505" timestamp="396703" />
+  <Command __id="346" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:48 EDT 2021" starttimestamp="1622160131505" timestamp="397196" />
+  <Command __id="348" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:48 EDT 2021" starttimestamp="1622160131505" timestamp="397280" />
+  <Command __id="350" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:48 EDT 2021" starttimestamp="1622160131505" timestamp="397363" />
+  <Command __id="352" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:48 EDT 2021" starttimestamp="1622160131505" timestamp="397447" />
+  <Command __id="354" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397532" />
+  <Command __id="356" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397615" />
+  <Command __id="358" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397699" />
+  <Command __id="360" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397784" />
+  <Command __id="362" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397867" />
+  <Command __id="364" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="397950" />
+  <Command __id="366" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398034" />
+  <Command __id="368" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398118" />
+  <Command __id="370" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398200" />
+  <Command __id="372" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398286" />
+  <Command __id="374" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398370" />
+  <Command __id="376" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:49 EDT 2021" starttimestamp="1622160131505" timestamp="398454" />
+  <Command __id="378" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398538" />
+  <Command __id="380" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398621" />
+  <Command __id="382" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398706" />
+  <Command __id="384" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398790" />
+  <Command __id="386" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398873" />
+  <Command __id="388" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="398994" />
+  <Command __id="390" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="399137" />
+  <Command __id="392" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="399237" />
+  <Command __id="394" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:50 EDT 2021" starttimestamp="1622160131505" timestamp="399494" />
+  <Command __id="396" _type="InsertStringCommand" date="Thu May 27 20:08:51 EDT 2021" starttimestamp="1622160131505" timestamp="400128" timestamp2="400128">
+    <data><![CDATA[C]]></data>
+  </Command>
+  <Command __id="398" _type="InsertStringCommand" date="Thu May 27 20:08:51 EDT 2021" starttimestamp="1622160131505" timestamp="400315" timestamp2="400315">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="400" _type="InsertStringCommand" date="Thu May 27 20:08:51 EDT 2021" starttimestamp="1622160131505" timestamp="400413" timestamp2="400413">
+    <data><![CDATA[o]]></data>
+  </Command>
+  <Command __id="402" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:52 EDT 2021" starttimestamp="1622160131505" timestamp="400970" />
+  <Command __id="404" _type="InsertStringCommand" date="Thu May 27 20:08:53 EDT 2021" starttimestamp="1622160131505" timestamp="401527" timestamp2="401527">
+    <data><![CDATA[m]]></data>
+  </Command>
+  <Command __id="406" _type="InsertStringCommand" date="Thu May 27 20:08:53 EDT 2021" starttimestamp="1622160131505" timestamp="401747" timestamp2="401747">
+    <data><![CDATA[p]]></data>
+  </Command>
+  <Command __id="408" _type="InsertStringCommand" date="Thu May 27 20:08:53 EDT 2021" starttimestamp="1622160131505" timestamp="402152" timestamp2="402152">
+    <data><![CDATA[3]]></data>
+  </Command>
+  <Command __id="410" _type="InsertStringCommand" date="Thu May 27 20:08:53 EDT 2021" starttimestamp="1622160131505" timestamp="402301" timestamp2="402301">
+    <data><![CDATA[0]]></data>
+  </Command>
+  <Command __id="412" _type="InsertStringCommand" date="Thu May 27 20:08:54 EDT 2021" starttimestamp="1622160131505" timestamp="403089" timestamp2="403089">
+    <data><![CDATA[1]]></data>
+  </Command>
+  <Command __id="414" _type="InsertStringCommand" date="Thu May 27 20:08:55 EDT 2021" starttimestamp="1622160131505" timestamp="403571" timestamp2="403571">
+    <data><![CDATA[T]]></data>
+  </Command>
+  <Command __id="416" _type="InsertStringCommand" date="Thu May 27 20:08:55 EDT 2021" starttimestamp="1622160131505" timestamp="404107" timestamp2="404107">
+    <data><![CDATA[a]]></data>
+  </Command>
+  <Command __id="418" _type="InsertStringCommand" date="Thu May 27 20:08:55 EDT 2021" starttimestamp="1622160131505" timestamp="404244" timestamp2="404244">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="420" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 20:08:56 EDT 2021" starttimestamp="1622160131505" timestamp="404742" />
+  <DocumentChange __id="342" _type="Delete" date="Thu May 27 20:08:48 EDT 2021" docASTNodeCount="308" docActiveCodeLength="1595" docExpressionCount="169" docLength="1595" endLine="10" length="26" offset="239" repeat="26" startLine="10" starttimestamp="1622160131505" timestamp="396696" timestamp2="399491">
+    <text><![CDATA[Comp301Tags.ROTATING_LINE)]]></text>
+  </DocumentChange>
+  <DocumentChange __id="395" _type="Insert" date="Thu May 27 20:08:51 EDT 2021" docASTNodeCount="309" docActiveCodeLength="1598" docExpressionCount="170" docLength="1598" length="3" offset="239" repeat="3" starttimestamp="1622160131505" timestamp="400125" timestamp2="400410">
+    <text><![CDATA[Coo]]></text>
+  </DocumentChange>
+  <DocumentChange __id="401" _type="Delete" date="Thu May 27 20:08:52 EDT 2021" docASTNodeCount="309" docActiveCodeLength="1597" docExpressionCount="170" docLength="1597" endLine="10" length="1" offset="241" startLine="10" starttimestamp="1622160131505" timestamp="400967">
+    <text><![CDATA[o]]></text>
+  </DocumentChange>
+  <DocumentChange __id="403" _type="Insert" date="Thu May 27 20:08:53 EDT 2021" docASTNodeCount="309" docActiveCodeLength="1605" docExpressionCount="170" docLength="1605" length="8" offset="241" repeat="8" starttimestamp="1622160131505" timestamp="401524" timestamp2="404241">
+    <text><![CDATA[mp301Tag]]></text>
+  </DocumentChange>
+  <DocumentChange __id="419" _type="Delete" date="Thu May 27 20:08:56 EDT 2021" docASTNodeCount="309" docActiveCodeLength="1604" docExpressionCount="170" docLength="1604" endLine="10" length="1" offset="248" startLine="10" starttimestamp="1622160131505" timestamp="404739">
+    <text><![CDATA[g]]></text>
+  </DocumentChange>
+  <Command __id="422" _type="PauseCommand" date="Thu May 27 20:08:57 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="405836">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1094]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="423" _type="InsertStringCommand" date="Thu May 27 20:08:57 EDT 2021" starttimestamp="1622160131505" timestamp="405840" timestamp2="405840">
+    <data><![CDATA[g]]></data>
+  </Command>
+  <Command __id="425" _type="InsertStringCommand" date="Thu May 27 20:08:57 EDT 2021" starttimestamp="1622160131505" timestamp="405987" timestamp2="405987">
+    <data><![CDATA[s]]></data>
+  </Command>
+  <Command __id="428" _type="PauseCommand" date="Thu May 27 20:08:59 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="407621">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1634]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[InsertStringCommand]]></next>
+  </Command>
+  <Command __id="427" _type="InsertStringCommand" date="Thu May 27 20:08:59 EDT 2021" starttimestamp="1622160131505" timestamp="407621" timestamp2="407621">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="429" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu May 27 20:08:59 EDT 2021" start_end="START" starttimestamp="1622160131505" timestamp="407627" />
+  <Command __id="431" _type="PauseCommand" date="Thu May 27 20:09:03 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="411711">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[AssistCommand]]></prev>
+    <pause><![CDATA[4084]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="430" _type="ShellCommand" date="Thu May 27 20:09:03 EDT 2021" starttimestamp="1622160131505" timestamp="411711" type="ECLIPSE_LOST_FOCUS" />
+  <DocumentChange __id="421" _type="Insert" date="Thu May 27 20:08:57 EDT 2021" docASTNodeCount="308" docActiveCodeLength="1607" docExpressionCount="169" docLength="1607" length="3" offset="248" repeat="3" starttimestamp="1622160131505" timestamp="405836" timestamp2="407617">
+    <text><![CDATA[gs.]]></text>
+  </DocumentChange>
+  <Command __id="433" _type="PauseCommand" date="Thu May 27 20:09:04 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="413473">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1762]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="432" _type="ShellCommand" date="Thu May 27 20:09:04 EDT 2021" starttimestamp="1622160131505" timestamp="413473" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="434" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu May 27 20:09:04 EDT 2021" start_end="END" starttimestamp="1622160131505" timestamp="413481" />
+  <Command __id="440" _type="PauseCommand" date="Thu May 27 20:09:26 EDT 2021" range="10s-20s" starttimestamp="1622160131505" timestamp="434602">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[19536]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="439" _type="RunCommand" date="Thu May 27 20:09:26 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="434602" type="Run" />
+  <Command __id="441" _type="RunCommand" date="Thu May 27 20:09:26 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="434603" type="Run" />
+  <Command __id="443" _type="PauseCommand" date="Thu May 27 20:09:29 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="437533">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[2930]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="444" _type="MoveCaretCommand" caretOffset="946" date="Thu May 27 20:09:29 EDT 2021" docOffset="1091" starttimestamp="1622160131505" timestamp="437705" />
+  <Command __id="446" _type="PauseCommand" date="Thu May 27 20:09:31 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="439637">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1932]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="445" _type="ShellCommand" date="Thu May 27 20:09:31 EDT 2021" starttimestamp="1622160131505" timestamp="439637" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="448" _type="PauseCommand" date="Thu May 27 20:09:33 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="441597">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1960]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="447" _type="ShellCommand" date="Thu May 27 20:09:33 EDT 2021" starttimestamp="1622160131505" timestamp="441597" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="449" _type="EclipseCommand" commandID="" date="Thu May 27 20:09:33 EDT 2021" starttimestamp="1622160131505" timestamp="441736" />
+  <Command __id="450" _type="EclipseCommand" commandID="" date="Thu May 27 20:09:33 EDT 2021" starttimestamp="1622160131505" timestamp="441822" />
+  <Command __id="451" _type="RunCommand" date="Thu May 27 20:09:33 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="441891" type="Run" />
+  <Command __id="452" _type="RunCommand" date="Thu May 27 20:09:33 EDT 2021" kind="HitBreakPoint" projectName="grail" starttimestamp="1622160131505" timestamp="441891" type="Run" />
+  <Command __id="453" _type="ShellCommand" date="Thu May 27 20:09:33 EDT 2021" starttimestamp="1622160131505" timestamp="442447" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="455" _type="PauseCommand" date="Thu May 27 20:09:39 EDT 2021" range="5s-10s" starttimestamp="1622160131505" timestamp="448086">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5639]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="454" _type="ConsoleOutput" date="Thu May 27 20:09:39 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="448086" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 20:09:39 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test"), Diff(INSERT,"Building symbol table and running first pass checks:Thu May 27 20:09:39 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="457" _type="PauseCommand" date="Thu May 27 20:09:40 EDT 2021" range="1s-2s" starttimestamp="1622160131505" timestamp="449209">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1123]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="456" _type="ConsoleOutput" date="Thu May 27 20:09:40 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="449209" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:32
+Running second pass checks Thu May 27 20:09:40 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 20:09:40 EDT 2021
+End O(n2) inter- and intra class method calls:Thu May 27 20:09:40 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and running first pass check"), Diff(INSERT,"size:32¶Running second pass checks Thu May 27 20:09:40 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu May 27 20:09:40 EDT 2021¶End O(n2) inter- and intra class method call"), Diff(EQUAL,"s:Thu May 27 20:09:"), Diff(DELETE,"39"), Diff(INSERT,"40"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="458" _type="ConsoleOutput" date="Thu May 27 20:09:41 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="449793" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Thu May 27 20:09:41 EDT 2021
+Generating checks:Thu May 27 20:09:41 EDT 2021
+Finished Generating checks:Thu May 27 20:09:41 EDT 2021
+Generating externals:Thu May 27 20:09:41 EDT 2021
+Finished Generating externals:Thu May 27 20:09:41 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:32¶Running"), Diff(INSERT,"Finished"), Diff(EQUAL," second pass checks"), Diff(DELETE," "), Diff(INSERT,":"), Diff(EQUAL,"Thu May 27 20:09:4"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"Start O(n2) inter- and intra class method call"), Diff(INSERT,"Generating checks:Thu May 27 20:09:41 EDT 2021¶Finished Generating check"), Diff(EQUAL,"s:Thu May 27 20:09:4"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL," EDT 2021¶"), Diff(DELETE,"End O(n2) inter- and intra class method cal"), Diff(INSERT,"Generating externals:Thu May 27 20:09:41 EDT 2021¶Finished Generating externa"), Diff(EQUAL,"ls:Thu May 27 20:09:4"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="459" _type="ConsoleOutput" date="Thu May 27 20:09:41 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="449858" type="ConsoleOutput">
+    <outputString><![CDATA[LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished second pass checks:Thu May 27 20:09:41 EDT 2021¶Generating checks:Thu May 27 20:09:41 EDT 2021"), Diff(INSERT,"eXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(EQUAL,"¶"), Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished Generating checks:Thu May 27 20:09:41 EDT 2021¶Generating externals:Thu May 27 20:09:41 EDT 2021"), Diff(INSERT,"eXEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0"), Diff(EQUAL,"¶"), Diff(DELETE,"F"), Diff(INSERT,"L"), Diff(EQUAL,"in"), Diff(DELETE,"ished Generating externals:Thu May 27 20:09:41 EDT 2021"), Diff(INSERT,"eYProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="460" _type="ConsoleOutput" date="Thu May 27 20:09:41 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="449914" type="ConsoleOutput">
+    <outputString><![CDATA[
+LineYEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Y.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineRadiusProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"LineXProperty did not pass completely:Checkstyle output does not match:.*INFO.*X.*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(EQUAL,"¶Line"), Diff(DELETE,"X"), Diff(INSERT,"Y"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"X"), Diff(INSERT,"Y"), Diff(EQUAL,".*int.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶Line"), Diff(DELETE,"Y"), Diff(INSERT,"Radius"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"¶")]]]></diff>
+  </Command>
+  <Command __id="461" _type="ConsoleOutput" date="Thu May 27 20:09:41 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="449975" type="ConsoleOutput">
+    <outputString><![CDATA[LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+
+MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶"), Diff(EQUAL,"Line"), Diff(DELETE,"Y"), Diff(INSERT,"Radius"), Diff(EQUAL,"EditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Y.*int"), Diff(INSERT,"Radius.*double"), Diff(EQUAL,".*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(DELETE,"LineRadius"), Diff(INSERT,"¶¶LineAngle"), Diff(EQUAL,"Property did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"Radius"), Diff(INSERT,"Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle"), Diff(EQUAL,".*double.*Comp301Tags\.ROTATING_LINE.*\[Expected"), Diff(DELETE,"G"), Diff(INSERT,"S"), Diff(EQUAL,"etters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(INSERT,"RotatingLineZeroDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶")]]]></diff>
+  </Command>
+  <Command __id="462" _type="ConsoleOutput" date="Thu May 27 20:09:41 EDT 2021" overflow="false" starttimestamp="1622160131505" timestamp="450038" type="ConsoleOutput">
+    <outputString><![CDATA[MovingRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+DetachedRotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+
+DetachedRotatingLineMinusFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"LineRadiusEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Radius.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶LineAngleProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedGetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶LineAngleEditableProperty did not pass completely:Checkstyle output does not match:.*INFO.*Angle.*double.*Comp301Tags\.ROTATING_LINE.*\[ExpectedSetters\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶RotatingLineZero"), Diff(INSERT,"MovingRotatingLineMinusFortyFive"), Diff(EQUAL,"Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶"), Diff(INSERT,"Detached"), Diff(EQUAL,"RotatingLineFortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶"), Diff(DELETE,"RotatingLineNinetyDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶RotatingLine180Degree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶¶¶MovingRotatingLine"), Diff(INSERT,"DetachedRotatingLineMinus"), Diff(EQUAL,"FortyFiveDegree did not pass completely:Please find in the appropiate suite and correct test  LineXProperty before running this test¶")]]]></diff>
+  </Command>
+  <Command __id="477" _type="PauseCommand" date="Thu May 27 20:11:38 EDT 2021" range="2s-5s" starttimestamp="1622160131505" timestamp="567104">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2299]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="476" _type="ShellCommand" date="Thu May 27 20:11:38 EDT 2021" starttimestamp="1622160131505" timestamp="567104" type="ECLIPSE_LOST_FOCUS" />
+</Events>

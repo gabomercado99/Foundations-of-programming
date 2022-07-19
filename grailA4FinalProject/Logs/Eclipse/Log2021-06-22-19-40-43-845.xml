@@ -1,0 +1,55 @@
+<Events startTimestamp="1624405243845" logVersion="1.0.0.202106071651">
+  <Command __id="64" _type="PauseCommand" date="Tue Jun 22 19:46:45 EDT 2021" range="10s-20s" starttimestamp="1624405243845" timestamp="361356">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[18936]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="63" _type="ShellCommand" date="Tue Jun 22 19:46:45 EDT 2021" starttimestamp="1624405243845" timestamp="361356" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="65" _type="RunCommand" date="Tue Jun 22 19:46:45 EDT 2021" kind="HitBreakPoint" projectName="assg_1_1_ec" starttimestamp="1624405243845" timestamp="361373" type="Run" />
+  <Command __id="66" _type="RunCommand" date="Tue Jun 22 19:46:45 EDT 2021" kind="HitBreakPoint" projectName="assg_1_1_ec" starttimestamp="1624405243845" timestamp="361373" type="Run" />
+  <Command __id="71" _type="PauseCommand" date="Tue Jun 22 19:46:58 EDT 2021" range="2s-5s" starttimestamp="1624405243845" timestamp="374467">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4735]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="70" _type="RunCommand" date="Tue Jun 22 19:46:58 EDT 2021" kind="HitBreakPoint" projectName="grailA4FinalProject" starttimestamp="1624405243845" timestamp="374466" type="Run" />
+  <Command __id="72" _type="RunCommand" date="Tue Jun 22 19:46:58 EDT 2021" kind="HitBreakPoint" projectName="grailA4FinalProject" starttimestamp="1624405243845" timestamp="374467" type="Run" />
+  <Command __id="73" _type="ShellCommand" date="Tue Jun 22 19:46:58 EDT 2021" starttimestamp="1624405243845" timestamp="374914" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="86" _type="PauseCommand" date="Tue Jun 22 19:49:04 EDT 2021" range="1m-2m" starttimestamp="1624405243845" timestamp="500740">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[65177]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="85" _type="ShellCommand" date="Tue Jun 22 19:49:04 EDT 2021" starttimestamp="1624405243845" timestamp="500740" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="87" _type="ShellCommand" date="Tue Jun 22 19:49:04 EDT 2021" starttimestamp="1624405243845" timestamp="500745" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="89" _type="PauseCommand" date="Tue Jun 22 19:49:12 EDT 2021" range="5s-10s" starttimestamp="1624405243845" timestamp="508824">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[8079]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="88" _type="ShellCommand" date="Tue Jun 22 19:49:12 EDT 2021" starttimestamp="1624405243845" timestamp="508824" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="91" _type="PauseCommand" date="Tue Jun 22 19:49:23 EDT 2021" range="10s-20s" starttimestamp="1624405243845" timestamp="519412">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[10588]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="90" _type="ShellCommand" date="Tue Jun 22 19:49:23 EDT 2021" starttimestamp="1624405243845" timestamp="519412" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="93" _type="PauseCommand" date="Tue Jun 22 19:49:34 EDT 2021" range="10s-20s" starttimestamp="1624405243845" timestamp="530663">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[11251]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="92" _type="ShellCommand" date="Tue Jun 22 19:49:34 EDT 2021" starttimestamp="1624405243845" timestamp="530663" type="ECLIPSE_LOST_FOCUS" />
+</Events>

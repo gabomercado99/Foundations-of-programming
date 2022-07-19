@@ -1,0 +1,35 @@
+<Events startTimestamp="1623682477750" logVersion="1.0.0.202106071651">
+  <Command __id="17" _type="PauseCommand" date="Mon Jun 14 10:56:38 EDT 2021" range="1s-2s" starttimestamp="1623682477750" timestamp="121003">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1965]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="16" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:38 EDT 2021" starttimestamp="1623682477750" timestamp="121003" />
+  <Command __id="18" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:38 EDT 2021" starttimestamp="1623682477750" timestamp="121006" />
+  <Command __id="19" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:38 EDT 2021" starttimestamp="1623682477750" timestamp="121065" />
+  <Command __id="20" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:38 EDT 2021" starttimestamp="1623682477750" timestamp="121065" />
+  <Command __id="21" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:38 EDT 2021" starttimestamp="1623682477750" timestamp="121120" />
+  <Command __id="22" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:39 EDT 2021" starttimestamp="1623682477750" timestamp="122028" />
+  <Command __id="23" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:39 EDT 2021" starttimestamp="1623682477750" timestamp="122100" />
+  <Command __id="24" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:40 EDT 2021" starttimestamp="1623682477750" timestamp="122737" />
+  <Command __id="25" _type="EclipseCommand" commandID="" date="Mon Jun 14 10:56:40 EDT 2021" starttimestamp="1623682477750" timestamp="122746" />
+  <Command __id="27" _type="PauseCommand" date="Mon Jun 14 10:56:49 EDT 2021" range="5s-10s" starttimestamp="1623682477750" timestamp="131469">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[8723]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="28" _type="MoveCaretCommand" caretOffset="0" date="Mon Jun 14 10:56:49 EDT 2021" docOffset="0" starttimestamp="1623682477750" timestamp="131769" />
+  <Command __id="30" _type="PauseCommand" date="Mon Jun 14 10:57:20 EDT 2021" range="30s-1m" starttimestamp="1623682477750" timestamp="162423">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[30653]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="29" _type="ShellCommand" date="Mon Jun 14 10:57:20 EDT 2021" starttimestamp="1623682477750" timestamp="162422" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="31" _type="ShellCommand" date="Mon Jun 14 10:57:20 EDT 2021" starttimestamp="1623682477750" timestamp="162432" type="ECLIPSE_MINIMIZED" />
+</Events>

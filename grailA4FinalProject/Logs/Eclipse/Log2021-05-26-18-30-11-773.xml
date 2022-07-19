@@ -1,0 +1,14 @@
+<Events startTimestamp="1622068211773" logVersion="1.0.0.202105202021">
+  <Command __id="2" _type="EclipseCommand" commandID="" date="Wed May 26 18:30:12 EDT 2021" starttimestamp="1622068211773" timestamp="287" />
+  <Command __id="3" _type="EclipseCommand" commandID="" date="Wed May 26 18:30:12 EDT 2021" starttimestamp="1622068211773" timestamp="291" />
+  <Command __id="4" _type="EclipseCommand" commandID="" date="Wed May 26 18:30:12 EDT 2021" starttimestamp="1622068211773" timestamp="356" />
+  <Command __id="5" _type="SelectTextCommand" caretOffset="134" date="Wed May 26 18:30:12 EDT 2021" end="134" start="110" starttimestamp="1622068211773" timestamp="463" />
+  <Command __id="7" _type="PauseCommand" date="Wed May 26 18:31:02 EDT 2021" range="30s-1m" starttimestamp="1622068211773" timestamp="50391">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[49924]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="6" _type="ShellCommand" date="Wed May 26 18:31:02 EDT 2021" starttimestamp="1622068211773" timestamp="50387" type="ECLIPSE_LOST_FOCUS" />
+</Events>
